@@ -13,14 +13,14 @@
 	<meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no">
 	<meta name="description" content="Arnold Chuenffo's Resume">
 	<meta name="author" content="TheThemeLab">
-	<title>Awesome Arnold - Website</title>
+	<title>CCTjobs - C Consultant Today</title>
 	<!-- Favicons -->
 	<!--<link rel="shortcut icon" href="img/ico-16.ico">-->
 	<link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}">
-	<link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
-	<link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
-	<link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
-	<link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
+	<link rel="apple-touch-icon" href="{{ asset('img/ico-57.png') }}" sizes="57x57">
+	<link rel="apple-touch-icon" href="{{ asset('img/ico-72.png') }}" sizes="72x72">
+	<link rel="apple-touch-icon" href="{{ asset('img/ico-114.png') }}" sizes="114x114">
+	<link rel="apple-touch-icon" href="{{ asset('img/ico-144.png') }}" sizes="144x144">
 	<!-- List of Stylesheet -->
 	<link type="text/css" href="{{ asset('/css/normalize.css') }}" rel="stylesheet">
 	<link type="text/css" href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -65,7 +65,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<!--<a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>-->
+			<a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.jpg" alt=""></a>
 		</div>
 		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
@@ -74,21 +74,25 @@
 				</li>
 				<li class="">
 					<a href="#about">About</a>
-				</li><!--
-                        <li class="">
-                            <a href="#portfolio">Works</a>
-                        </li>-->
-				<li class="">
-					<a href="#skill">Skills</a>
 				</li>
+				<!--
+				<li class="">
+					<a href="#portfolio">Works</a>
+				</li>
+                 -->
+				<li class="">
+					<a href="#services">Services</a>
+				</li>
+				<!--
 				<li class="">
 					<a href="#experience">Resume</a>
 				</li>
+				-->
 				<li class="">
 					<a href="#clients">Clients</a>
 				</li>
 				<li class="">
-					<a href="#process">Process</a>
+					<a href="#process">Guarantee</a>
 				</li>
 				<li class="">
 					<a href="#contact">Contact</a>
@@ -110,57 +114,62 @@
 	<div class="tp-banner-container" style="max-height: none; overflow: visible; height: 589px;">
 		<div class="tp-banner revslider-initialised tp-simpleresponsive" id="revslider-185" style="height: 100%; max-height: none;">
 			<ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
-				<!-- SLIDE  -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Slide 1" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0;">
-					<!-- MAIN IMAGE -->
-					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="public/images/slide1.jpg" data-src="public/images/slide1.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;public/images/slide1.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div><div class="tp-dottedoverlay twoxtwo"></div>
-					</div>
-					<!-- LAYERS -->
 
+				<!-- SLIDE  -->
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="600" data-saveperformance="on"
+					data-title="Slide 2" class="tp-revslider-slidesli active-revslide current-sr-slide-visible"
+					style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;">
+					<!-- MAIN IMAGE -->
+
+					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined"
+						 data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined"
+						 data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined"
+						 data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined"
+						 data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
+						<div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
+							 data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined"
+							 src="public/images/slide2.jpg" data-src="public/images/slide2.jpg"
+							 style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;public/images/slide2.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div>
+						<div class="tp-dottedoverlay twoxtwo"></div>
+					</div>
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme sft sub-heading start" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-speed="300" data-start="1200" data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off" data-endspeed="300" style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 547px; top: 230.929px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, -45.5714, 0, 1);">Welcome to my site
+					<div class="tp-caption tp-resizeme sft sub-heading start" data-x="center" data-hoffset="0"
+						 data-y="center" data-voffset="-50" data-speed="300" data-start="1200"
+						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+						 data-endspeed="300"
+						 style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+						<span style="background-color: #F79320; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Quality</span>
+						<span style="background-color: #A7C139; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Innovation</span>
+						<span style="background-color: #a94442; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Passion</span>
+
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption box-title sfb tp-fade tp-resizeme start" data-x="center" data-hoffset="0" data-y="center" data-voffset="30" data-speed="300" data-start="1300" data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off" data-endspeed="300" style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 3px; margin: 0px; padding: 3px 17px; letter-spacing: -2px; font-size: 67px; left: 472px; top: 273.243px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 45.5714, 0, 1);">Arnold Chuenffo
+					<div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
+						 data-y="center" data-voffset="30" data-speed="300" data-start="1300"
+						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+						 data-endspeed="300"
+						 style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 3px; margin: 0px; padding: 3px 17px; letter-spacing: -2px; font-size: 67px; left: 384px; top: 273.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+						C Consultant Today
 					</div>
 
-				</li>
-				<!-- SLIDE  -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="600" data-saveperformance="on" data-title="Slide 2" class="tp-revslider-slidesli active-revslide current-sr-slide-visible" style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;">
-					<!-- MAIN IMAGE -->
-
-					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="public/images/slide2.jpg" data-src="public/images/slide2.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;public/images/slide2.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div><div class="tp-dottedoverlay twoxtwo"></div></div>
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme sft sub-heading start" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-speed="300" data-start="1200" data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off" data-endspeed="300" style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">Creative - Professional - Passionate
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0" data-y="center" data-voffset="30" data-speed="300" data-start="1300" data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off" data-endspeed="300" style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 3px; margin: 0px; padding: 3px 17px; letter-spacing: -2px; font-size: 67px; left: 384px; top: 273.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">Software Engineer
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
+						 data-y="center" data-voffset="30" data-speed="300" data-start="1300"
+						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+						 data-endspeed="300"
+						 style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 0px; margin: 0px; padding: 3px 17px; letter-spacing: -1px; font-size: 27px; left: 500px; top: 345.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+						<span style="background-color: #a94442; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
 					</div>
 
 
 				</li>
 			</ul>
-			<div class="tp-bannertimer" style="width: 56.9562%; visibility: visible; transform: translate3d(0px, 0px, 0px);"></div>	<div class="tp-loader spinner4" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>
-		<div style="position: absolute; top: 294px; margin-top: -20px; left: 20px;" class="tp-leftarrow tparrows default round hidearrows"><div class="tp-arr-allwrapper"><div class="tp-arr-iwrapper"><div class="tp-arr-imgholder" style="visibility: inherit; opacity: 1; background-image: url(&quot;images/slide1.jpg&quot;);"></div><div class="tp-arr-imgholder2"></div><div class="tp-arr-titleholder">Slide 1</div><div class="tp-arr-subtitleholder"></div></div></div></div><div style="position: absolute; top: 294px; margin-top: -20px; right: 20px;" class="tp-rightarrow tparrows default round hidearrows"><div class="tp-arr-allwrapper"><div class="tp-arr-iwrapper"><div class="tp-arr-imgholder" style="visibility: inherit; opacity: 1; background-image: url(&quot;images/slide1.jpg&quot;);"></div><div class="tp-arr-imgholder2"></div><div class="tp-arr-titleholder">Slide 1</div><div class="tp-arr-subtitleholder"></div></div></div></div>
+		</div>
 	</div>
 	<!-- END REVOLUTION SLIDER -->
 
-	<!--div class="slide-content">
-            <div class="text-center">
-                    <div class="header">
-                            <div class="heading">
-                                    Welcome to my site
-                            </div>
-                            <div class="box-heading">
-                                    <div class="box-inner">
-                                            Jonathan Doe
-                                    </div>
-                            </div>
-                    </div>
-            </div>
-    </div-->
+
 </section>
 <!-- Home Section -->
 <!-- About Section -->
@@ -172,134 +181,37 @@
 				<div>
 					<span class="fa fa-user fa-2x"></span>
 				</div>
-				<h1>About <span>Me</span></h1>
+				<h1>About <span>Us</span></h1>
 			</div>
 			<!-- End Section Title -->
 		</div>
 		<div class="row">
-			<div class="col-md-4 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-				<img src="{{ asset('images/avatar.png') }}" class="img-center img-responsive" alt="My photo">
-				<!-- YOUR PHOTO -->
+			<div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
+				<img src="{{ asset('images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
+				<!-- YOUR PHOTO
 				<div class="name-title">
-					<h2>Arnold Chuenffo</h2>
-					<!-- Your Name -->
+					<!--<h2>Arnold Chuenffo</h2>
+					 Your Name
 					<h5>Full Stack Developer</h5>
-					<!-- Your Designation -->
-				</div>
+				</div>-->
 			</div>
 			<!-- some text about yourself -->
-			<div class="col-md-4 item_top" style="opacity: 1; top: 0px;">
+			<div class="col-md-6 item_top" style="opacity: 1; top: 0px;">
 				<!---->
 				<p class="quoteline">
-					BIG DATA/HADOOP Ethusiast.
+					All kinds of job connection.
 				</p>
 				<p>
-					Hello, I'm a Full Stack Developer from Buea, Cameroon. Currently pursuing a Master degree of Information Technology at Lovely Professional University.
+					C Consultant Today (CCT) helps companies find the great profile they need for their vacancies.
+
 				</p>
 				<p>
-					I worked at Microsoft as a Technology Evangelist and at Floraison SARL as a Software Engineer, where I spend most of my time crafting and working on awesome projects. I also learnt how to plan and manage projects.
-				</p>
-				<p class="text-right">
-					<img src="images/signature.jpg" alt="signature">
+                    Find your dream job  with CCT
 				</p>
 			</div>
-			<!-- ./some text about yourself -->
-			<div class="col-md-4 item_bottom" style="opacity: 1; bottom: 0px;">
-				<!-- some information list -->
-				<ul class="fa-ul">
-					<li><i class="fa fa-li fa-mobile"></i><strong>Phone</strong> : +91 911-551-4082</li>
-					<li><i class="fa fa-li fa-envelope-o"></i><strong>Email</strong> : arnoldtagne@gmail.com</li>
-					<li><i class="fa fa-li fa-globe"></i><strong>Website</strong> : www.lemetice.github.io</li>
-					<li><i class="fa fa-li fa-home"></i><strong>Adresse</strong> : Ajit Vihar, Rama Mandi Jalandhar,<br>Punjab, India.</li>
-				</ul>
-				<!-- ./some information list -->
-				<!-- some number facts -->
-				<div class="number-counters text-center new-line">
-					<div class="counters-item">
-						<i class="fa fa-group fa-2x"></i>
-						<strong data-to="150">150</strong>
-						<!-- Set Your Number here. i,e. data-to="56" -->
-						<p>
-							Happy Clients
-						</p>
-					</div>
-					<div class="counters-item">
-						<i class="fa fa-flag fa-2x"></i>
-						<strong data-to="2">2+</strong>
-						<!-- Set Your Number here. i,e. data-to="56" -->
-						<p>
-							Year Experience
-						</p>
-					</div>
-					<div class="counters-item">
-						<i class="fa fa-trophy fa-2x"></i>
-						<strong data-to="5">5</strong>
-						<!-- Set Your Number here. i,e. data-to="56" -->
-						<p>
-							Awards Won
-						</p>
-					</div>
-					<div class="counters-item">
-						<i class="fa fa-thumbs-up fa-2x"></i>
-						<strong data-to="7">7</strong>
-						<!-- Set Your Number here. i,e. data-to="56" -->
-						<p>
-							Projects Done
-						</p>
-					</div>
-				</div>
-				<!-- ./some number facts -->
-			</div>
+
 		</div>
-		<div class="row services">
-			<div class="col-md-4">
-				<!-- Service -->
-				<div class="services-box new-line item_left" style="opacity: 1; left: 0px;">
-					<h4>Microsoft Technologies</h4>
-					<div class="services-box-icon">
-						<i class="fa fa-smile-o fa-3x"></i>
-					</div>
-					<div class="service-box-info">
-						<p>
-							Organized several workshops on Microsoft products such as Office 365,AppStudio,VisualStudio, Windows phone app dev and many others
-						</p>
-					</div>
-				</div>
-				<!-- End Service -->
-			</div>
-			<div class="col-md-4">
-				<!-- Service -->
-				<div class="services-box new-line item_bottom" style="opacity: 1; bottom: 0px;">
-					<h4>Web Mastering</h4>
-					<div class="services-box-icon">
-						<i class="fa fa-html5 fa-3x"></i>
-					</div>
-					<div class="service-box-info">
-						<p>
-							Monitor and maintain web apps on Virtual Private Servers.
-							SSL,SSH and Linux Server configurations
-						</p>
-					</div>
-				</div>
-				<!-- End Service -->
-			</div>
-			<div class="col-md-4 clearfix">
-				<!-- Service -->
-				<div class="services-box new-line item_right" style="opacity: 1; right: 0px;">
-					<h4>Frameworks</h4>
-					<div class="services-box-icon">
-						<i class="fa fa-link fa-3x"></i>
-					</div>
-					<div class="service-box-info">
-						<p>
-							I am fluent with Laravel PHP, AngularJS, Ionic.
-							Tools: Git, Gulp, Grunt, MYSQL
-						</p>
-					</div>
-				</div>
-				<!-- End Service -->
-			</div>
-		</div>
+
 	</div>
 </section>
 <!-- End About Section -->
@@ -555,7 +467,7 @@
 <!-- End Portfolio Section -->
 
 <!-- Skill Section -->
-<section id="skill" class="section-content bg2">
+<section id="services" class="section-content bg2">
 	<div class="container">
 		<div class="row">
 			<!-- Section Title -->
@@ -563,17 +475,67 @@
 				<div>
 					<span class="fa fa-bar-chart-o fa-2x"></span>
 				</div>
-				<h1>My <span>Skills</span></h1>
+				<h1>Our <span>Services</span></h1><br/>
+                <h3 class="padBottom killMargin">We have solutions for your recruiting challenges.</h3>
+                <h5>From unkilled to skilled profiles</h5>
 			</div>
 			<!-- End Section Title -->
 		</div>
+
+        <div class="row services">
+            <div class="col-md-4">
+                <!-- Service -->
+                <div class="services-box new-line item_left" style="opacity: 1; left: 0px;">
+                    <h4>Enterprise</h4>
+                    <div class="services-box-icon">
+                        <i class="fa fa-building fa-2x"></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            We have the solution to your recruiting challenges.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+            <div class="col-md-4">
+                <!-- Service -->
+                <div class="services-box new-line item_bottom" style="opacity: 1; bottom: 0px;">
+                    <h4>Job Seekers</h4>
+                    <div class="services-box-icon">
+                        <i class="fa fa-html5 fa-3x"></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            Build your profile with us to get your dream job.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+            <div class="col-md-4 clearfix">
+                <!-- Service -->
+                <div class="services-box new-line item_right" style="opacity: 1; right: 0px;">
+                    <h4>Recruitment Campaign</h4>
+                    <div class="services-box-icon"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                        <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true" ></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            Lets build a strategic campaign togther.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+        </div>
 		<div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
 			<div class="col-md-2">
-				<div class="chart" data-percent="65">
+				<div class="fa fa-graduation-cap fa-2x" data-percent="65">
 					<span class="percent">65</span>
-					<h4>Project Management</h4>
+					<h4>Collect Recruiting</h4>
 					<p>
-						Project planning and Mangement. Agile development is what I use.
+						Entery Level
 					</p>
 					<canvas height="150" width="150"></canvas></div>
 			</div>
@@ -623,46 +585,7 @@
 					<canvas height="150" width="150"></canvas></div>
 			</div>
 		</div>
-		<div class="row new-line item_bottom" style="opacity: 1; bottom: 0px;">
-			<div class="col-md-6">
-				<ul class="skillBar">
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="80" style="width: 80%;"><strong>Creative 80%</strong></span>
-						</div>
-					</li>
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="70" style="width: 70%;"><strong>Leadership 70%</strong></span>
-						</div>
-					</li>
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="90" style="width: 90%;"><strong>Interpersonal Communication 90%</strong></span>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<ul class="skillBar">
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="90" style="width: 80%;"><strong>English 90%</strong></span>
-						</div>
-					</li>
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="90" style="width: 99%;"><strong>French 90%</strong></span>
-						</div>
-					</li>
-					<li style="opacity: 1; left: 0px;">
-						<div class="skillBg">
-							<span data-width="30" style="width: 60%;"><strong>German 30%</strong></span>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
+
 		<!-- skills end -->
 	</div>
 </section>
@@ -675,22 +598,22 @@
 		</div>
 	</div>
 </div>
-<!-- Resume Section -->
+<!-- Resume Section
 <section id="experience" class="section-content bg2">
 	<div class="container">
 		<div class="row">
-			<!-- Section title -->
+			<!-- Section title --
 			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
 				<div>
 					<span class="fa fa-book fa-2x"></span>
 				</div>
 				<h1>My <span>Resume</span></h1>
 			</div>
-			<!-- End Section title -->
+			<!-- End Section title --
 		</div>
 		<div class="row">
 			<ul class="timeline list-unstyled">
-				<!-- History Year -->
+				<!-- History Year --
 				<li class="title">Present</li>
 				<li class="note item_right" style="opacity: 1; right: 0px;">
 					<h4>Lovely Professional University</h4>
@@ -748,7 +671,7 @@
                                 July 2015 </span>
 					<span class="arrow fa fa-play"></span>
 				</li>
-				<!-- Education -->
+				<!-- Education --
 				<li class="title">Education</li>
 				<li class="note item_left" style="opacity: 1; left: 0px;">
 					<h4>Master Degree of Technology</h4>
@@ -772,13 +695,13 @@
                                 2011 - 2015 </span>
 					<span class="arrow fa fa-play"></span>
 				</li>
-				<!-- Start icon -->
+				<!-- Start icon --
 				<li class="start fa fa-bookmark"></li>
 				<li class="clear"></li>
 			</ul>
 		</div>
 	</div>
-</section>
+</section>-->
 <!-- End Experience Timeline Section -->
 
 <!-- Clients Section -->
@@ -791,7 +714,7 @@
 					<div>
 						<span class="fa fa-users fa-2x"></span>
 					</div>
-					<h1 class="white">My <span>Clients</span></h1>
+					<h1 class="white">Our <span>Clients</span></h1>
 				</div>
 				<!-- End Section title -->
 			</div>
@@ -836,7 +759,7 @@
 				</div>
 
 			</div> <!--/ .row -->
-			<!--
+
             <div class="row new-line item_fade_in" style="opacity: 1; right: 0px;">
                 <h4 class="white">Some of <strong>my clients</strong></h4>
                 <div class="carrousel-container">
@@ -844,22 +767,22 @@
                     <div id="carousel_inner">
                         <ul class="clearfix" id="carousel_ul" style="left: -249px;">
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="img/twitter.png" alt="Twitter"></span>
+                                <span><img src="public/img/twitter.png" alt="Twitter"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="img/magento.png" alt="magento"></span>
+                                <span><img src="public/img/magento.png" alt="magento"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="img/mailchimp.png" alt="mailchimp"></span>
+                                <span><img src="public/img/mailchimp.png" alt="mailchimp"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src=".img/nexternal.png" alt="nexternal"></span>
+                                <span><img src="public/img/nexternal.png" alt="nexternal"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="img/wordpress.png" alt="wordpress"></span>
+                                <span><img src="public/img/wordpress.png" alt="wordpress"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="img/google.png" alt="google"></span>
+                                <span><img src="public/img/google.png" alt="google"></span>
                             </li>
 
                         </ul>
@@ -867,7 +790,7 @@
                     <div id="right_scroll"><a href="javascript:slide(&quot;right&quot;);"></a></div>
                     <input type="hidden" id="hidden_auto_slide_seconds" value="5000">
                 </div>
-            </div>-->
+            </div>
 		</div>
 	</div>
 </section>
@@ -961,26 +884,27 @@
 				<!-- Contact Details -->
 				<i class="fa fa-map-marker fa-3x"></i>
 				<p>
-					Ajit Vihar, Rama Mandi Jalandhar <br>
-					Punjab, India
+					1st Floor, Near State Bank of Patiala, Sethi Complex, Rama Mandi Jalandhar <br>
+					114 005 Punjab, India
 				</p>
 				<p>
-					+91 911-551-4082
+					+91 7589088881<br>
+                    +91 8699928800
 				</p>
 				<!-- End Contact Details -->
 				<!-- Social Icon -->
 				<div class="social-icon">
-					<a href="https://www.facebook.com/chuenffo"><i class="fa fa-facebook-square fa-3x"></i></a>
-					<a href="https://www.twitter.com/arnoldtagne"><i class="fa fa-twitter-square fa-3x"></i></a>
+					<a href="https://www.facebook.com/cctjobs"><i class="fa fa-facebook-square fa-3x"></i></a>
+					<a href="https://www.twitter.com/cctjobs"><i class="fa fa-twitter-square fa-3x"></i></a>
 					<a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
-					<a href="https://www.linkedin.com/in/arnold-chuenffo-444959a4
+					<a href="https://www.linkedin.com/in/cctjobs
 "><i class="fa fa-linkedin-square fa-3x"></i></a>
 				</div>
 				<!-- End Social Icon -->
 			</div>
 		</div>
 		<div class="row item_fade_in" style="opacity: 1; right: 0px;">
-			<h4 class="text-center">Drop me a Line</h4>
+			<h4 class="text-center">Interestesd? Drop us a Line.</h4>
 			<div class="col-md-6 col-md-offset-3">
 				<div class="form-respond text-center">
 				</div>
@@ -1013,7 +937,7 @@
 <footer class="text-center">
 	<!-- Footer Text -->
 	<div class="container text-center item_top" style="opacity: 1; top: 0px;">
-		<!--<img class="footer-logo" src="img/logo.png" alt="footer logo"><br> -->
+		<img class="footer-logo" src="public/img/logo.png" alt="footer logo"><br>
 		 Copyright 2017. All Rights Reserved.
 	</div>
 	<!-- End Footer Text -->
