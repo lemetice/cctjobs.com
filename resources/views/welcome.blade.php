@@ -3,7 +3,7 @@
 <html lang="en-US" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__statfa_net">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link type="text/css" rel="stylesheet" href="{{ asset('/css/css') }}">
+	<link type="text/css" rel="stylesheet" href="{{ asset('public/css/css') }}">
 	<style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
 	</style>
 	<style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
@@ -16,37 +16,37 @@
 	<title>CCTjobs - C Consultant Today</title>
 	<!-- Favicons -->
 	<!--<link rel="shortcut icon" href="img/ico-16.ico">-->
-	<link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}">
-	<link rel="apple-touch-icon" href="{{ asset('img/ico-57.png') }}" sizes="57x57">
-	<link rel="apple-touch-icon" href="{{ asset('img/ico-72.png') }}" sizes="72x72">
-	<link rel="apple-touch-icon" href="{{ asset('img/ico-114.png') }}" sizes="114x114">
-	<link rel="apple-touch-icon" href="{{ asset('img/ico-144.png') }}" sizes="144x144">
+	<link rel="shortcut icon" href="{{ asset('publicpublic/img/favicon.ico') }}">
+	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-57.png') }}" sizes="57x57">
+	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-72.png') }}" sizes="72x72">
+	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-114.png') }}" sizes="114x114">
+	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-144.png') }}" sizes="144x144">
 	<!-- List of Stylesheet -->
-	<link type="text/css" href="{{ asset('/css/normalize.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('/css/font-awesome.min.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('/css/style.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('/css/style-responsive.css') }}" rel="stylesheet">
+	<link type="text/css" href="{{ asset('public/css/normalize.css') }}" rel="stylesheet">
+	<link type="text/css" href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link type="text/css" href="{{ asset('public/css/font-awesome.min.css') }}" rel="stylesheet">
+	<link type="text/css" href="{{ asset('public/css/style.css') }}" rel="stylesheet">
+	<link type="text/css" href="{{ asset('public/css/style-responsive.css') }}" rel="stylesheet">
 	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/settings.css') }}" media="screen">
+	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/settings.css') }}" media="screen">
 	<!-- END SLIDER REVOLUTION 4.x CSS SETTINGS -->
 	<!-- Google Font -->
-	<link href="{{ asset('css/css(1)') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('css/css(2)') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('public/css/css(1)') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('public/css/css(2)') }}" rel="stylesheet" type="text/css">
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
-	<script src="{{ asset('js/html5shiv.js') }}"></script>
-	<script src="{{ asset('js/respond.min.js') }}"></script>
+	<script src="{{ asset('public/js/html5shiv.js') }}"></script>
+	<script src="{{ asset('public/js/respond.min.js') }}"></script>
 	<![endif]-->
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/common.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/util.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/stats.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/map.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/marker.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/onion.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/controls.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('js/infowindow.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/common.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/util.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/stats.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/map.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/marker.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/onion.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/controls.js.download') }}"></script>
+	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/infowindow.js.download') }}"></script>
 </head>
 
 <div class="gr-top-z-index gr-top-zero" tabindex="-1"><div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".2"><div class="_44eb54-panel" data-grammarly-reactid=".2.0"><div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".2.0.0"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.1"><div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".2.0.1.0"></div></div><div class="_44eb54-line" data-grammarly-reactid=".2.0.3"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.5"><div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1" data-grammarly-reactid=".2.0.5.0"></div></div></div></div></div><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"><div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".1"><div class="_44eb54-panel" data-grammarly-reactid=".1.0"><div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".1.0.0"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.1"><div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".1.0.1.0"></div></div><div class="_44eb54-line" data-grammarly-reactid=".1.0.3"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.5"><div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1" data-grammarly-reactid=".1.0.5.0"></div></div></div></div></div><body data-gr-c-s-loaded="true">
@@ -187,7 +187,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-				<img src="{{ asset('images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
+				<img src="{{ asset('public/images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
 				<!-- YOUR PHOTO
 				<div class="name-title">
 					<!--<h2>Arnold Chuenffo</h2>
@@ -908,7 +908,17 @@
 			<div class="col-md-6 col-md-offset-3">
 				<div class="form-respond text-center">
 				</div>
-				<form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form" style="opacity: 1; bottom: 0px;">
+                {!! Form::open(
+                                  array(
+                                  'url' => 'contact-us',
+                                  'method' => 'post',
+                                  'class' => 'form validate item_bottom',
+                                  'style'=> "opacity: 1; bottom: 0px;",
+                                  'name'=> "contactform",
+                                  'id'=> "contactform"
+                                  ))
+                                 !!}
+				<!--<form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form" style="opacity: 1; bottom: 0px;">-->
 					<div class="form-group">
 						<input type="text" name="name" id="name" class="form-control required" placeholder="Name">
 					</div>
@@ -923,7 +933,8 @@
 					</div>
 					<!-- antispam code -->
 					<div class="antispam"><input type="text" value="" name="url"></div>
-				</form>
+                {!! Form:: close() !!}
+                <!-- </form> -->
 			</div>
 		</div>
 		<!-- End form contact -->
@@ -937,7 +948,7 @@
 <footer class="text-center">
 	<!-- Footer Text -->
 	<div class="container text-center item_top" style="opacity: 1; top: 0px;">
-		<img class="footer-logo" src="public/img/logo.png" alt="footer logo"><br>
+		<img class="footer-logo" src="public/img/logo1.jpg" alt="footer logo"><br>
 		 Copyright 2017. All Rights Reserved.
 	</div>
 	<!-- End Footer Text -->
@@ -945,31 +956,31 @@
 <!-- Back to top -->
 <a href="#" id="back-top" style="display: none;"><i class="fa fa-angle-up fa-2x"></i></a>
 <!-- Js Library -->
-<script type="text/javascript" src="{{ asset('js/modernizr.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.sticky.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.easing-1.3.pack.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/bootstrap.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.parallax-1.1.3.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.appear.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.flexslider.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.fitvids.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/swiper.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/waypoints.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery-countTo.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/easyPieChart.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/smoothscroll.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.isotope.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.nicescroll.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.validate.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/gmap-settings.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/modernizr.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.sticky.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.easing-1.3.pack.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/bootstrap.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.parallax-1.1.3.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.appear.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.flexslider.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.fitvids.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/swiper.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/waypoints.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery-countTo.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/easyPieChart.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/smoothscroll.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.isotope.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.nicescroll.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.validate.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/js') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/gmap-settings.js.download') }}"></script>
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-<script type="text/javascript" src="{{ asset('js/jquery.themepunch.tools.min.js.download') }}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery.themepunch.revolution.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.themepunch.tools.min.js.download') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/jquery.themepunch.revolution.min.js.download') }}"></script>
 <!-- END SLIDER REVOLUTION 4.x SCRIPTS  -->
-<script type="text/javascript" src="{{ asset('js/script.js.download') }}"></script>
-<!-- Js Library -->
+<script type="text/javascript" src="{{ asset('public/js/script.js.download') }}"></script>
+ <!--Js Library -->
 
 <div style="clear: both;"></div></body><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
 </html>

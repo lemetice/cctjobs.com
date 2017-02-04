@@ -1,5 +1,12 @@
 <?php namespace App\Http\Controllers;
 
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -21,6 +28,7 @@ class WelcomeController extends Controller {
 	public function __construct()
 	{
 		$this->middleware('guest');
+		$this->sender_mail='';
 	}
 
 	/**
@@ -33,4 +41,30 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	/**
+	 * Contact us .
+	 *
+	 * @return Response
+	 */
+	public function contactUs(Request $request)
+	{
+
+		//define sender
+		$this->sender_email = $request->get('email');
+
+		//Send mail to Greenhands
+		Mail::send('emails.contactus', [
+			'name' => 'CCTjobs',
+			'sender_name' => $request->get('name'),
+			'sender_message' => $request->get('message'),
+			'sender_email' =>  $request->get('email')
+		],
+			function($message){
+
+				$message->to('cctjobsjalandhar@gmail.com', 'C Consultant Today')->subject('C Consultant Today Services Needed');
+			});
+
+		$success_message ="Thanks for contacting us. You will get a reply within 24hrs";
+		return $success_message;
+	}
 }

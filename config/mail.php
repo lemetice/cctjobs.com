@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+	'from' => ['address' => 'cctjobsjalandhar@gmail.com', 'name' => 'C CONSULTANT TODAY'],
 
 	/*
 	|--------------------------------------------------------------------------
