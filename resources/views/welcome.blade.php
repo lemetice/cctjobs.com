@@ -92,7 +92,7 @@
 					<a href="#clients">Clients</a>
 				</li>
 				<li class="">
-					<a href="#process">Guarantee</a>
+					<a href="#process">Process</a>
 				</li>
 				<li class="">
 					<a href="#contact">Contact</a>
@@ -503,7 +503,7 @@
                 <div class="services-box new-line item_bottom" style="opacity: 1; bottom: 0px;">
                     <h4>Job Seekers</h4>
                     <div class="services-box-icon">
-                        <i class="fa fa-html5 fa-3x"></i>
+                        <i class="fa fa-arrows fa-3x"></i>
                     </div>
                     <div class="service-box-info">
                         <p>
@@ -517,12 +517,12 @@
                 <!-- Service -->
                 <div class="services-box new-line item_right" style="opacity: 1; right: 0px;">
                     <h4>Recruitment Campaign</h4>
-                    <div class="services-box-icon"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                    <div class="services-box-icon"><i class="fa fa-file-image-o" aria-hidden="true"></i>
                         <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true" ></i>
                     </div>
                     <div class="service-box-info">
                         <p>
-                            Lets build a strategic campaign togther.
+                            Lets build a strategic campaign together.
                         </p>
                     </div>
                 </div>
@@ -530,58 +530,25 @@
             </div>
         </div>
 		<div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
-			<div class="col-md-2">
-				<div class="fa fa-graduation-cap fa-2x" data-percent="65">
-					<span class="percent">65</span>
-					<h4>Collect Recruiting</h4>
-					<p>
-						Entery Level
-					</p>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-			<div class="col-md-2 ">
-				<div class="chart" data-percent="30">
-					<span class="percent">30</span>
-					<h4>Hadoop</h4>
-					<p>
-						Still taking a training in Big Data/Hadoop.
-					</p>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-			<div class="col-md-2">
-				<div class="chart" data-percent="75">
-					<span class="percent">75</span>
-					<h4>Web</h4>
-					<p>
-						HTML, Javascript/Jquery, CSS, Bootstrap.
-					</p>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-			<div class="col-md-2">
-				<div class="chart" data-percent="80">
-					<span class="percent">80</span>
-					<h4>Laravel</h4>
-					<p>
-						The only PHP framework that does not have any secret for me.
-					</p>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-			<div class="col-md-2">
+            <div class="col-md-4 ">
+                <div class="" data-percent="">
+                    <span class="percent">350</span>
+                    <h4>Community</h4>
+                    <p>
+                        Both skilled and unskilled
+                    </p>
+                    <canvas height="150" width="150"></canvas></div>
+            </div>
+			<div class="col-md-4">
 				<div class="chart" data-percent="65">
 					<span class="percent">65</span>
-					<h4>Java</h4>
-					<p>
-						Intermediate level
-					</p>
+					<h4>Recruited</h4>
 					<canvas height="150" width="150"></canvas></div>
 			</div>
-			<div class="col-md-2">
-				<div class="chart" data-percent="70">
-					<span class="percent">70</span>
-					<h4>Tools</h4>
-					<p>
-						Good with GIT, GRUNT, GULP and many others.
-					</p>
+			<div class="col-md-4">
+				<div class="chart" data-percent="30">
+					<span class="percent">30</span>
+					<h4>Cost per hire</h4>
 					<canvas height="150" width="150"></canvas></div>
 			</div>
 		</div>
@@ -592,10 +559,16 @@
 <!-- End Skill Section -->
 <div class="fullwidth-section bg-callout">
 	<div class="container">
-		<div class="col-md-12 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-			<h1 class="white padBottom killMargin">I am available for <strong>Freelancer</strong></h1>
-			<a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Hire Me</a>&nbsp;&nbsp;<a class="btn btn-primary btn-lg" href="https://docs.google.com/document/d/1gHQ9ezrxxJS3RWX6rRDaLcRd2iPxiTk9FMsjtiFEJ48/edit?usp=sharing"><i class="fa fa-download"></i> Download Resume</a>
+		<div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
+			<h1 class="white padBottom killMargin">I am a <strong>Job seeker</strong></h1>
+			<a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
+            <span class="btn btn-primary btn-lg" href="#"><i class="fa fa-weixin"></i> And get job notifications</span>
 		</div>
+        <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
+            <h1 class="white padBottom killMargin">I am <strong>Company</strong></h1>
+            <a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;&nbsp;
+        </div>
+
 	</div>
 </div>
 <!-- Resume Section
@@ -721,7 +694,7 @@
 
 			<div class="row item_bottom" style="opacity: 1; bottom: 0px;">
 
-				<h4 class="white">What my <strong>clients saying</strong></h4>
+				<h4 class="white">What our <strong>clients say</strong></h4>
 
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 
@@ -767,22 +740,22 @@
                     <div id="carousel_inner">
                         <ul class="clearfix" id="carousel_ul" style="left: -249px;">
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/twitter.png" alt="Twitter"></span>
+                                <span><img src="public/images/clients/twitter.png" alt="Twitter"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/magento.png" alt="magento"></span>
+                                <span><img src="public/images/clients/magento.png" alt="magento"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/mailchimp.png" alt="mailchimp"></span>
+                                <span><img src="public/images/clients/mailchimp.png" alt="mailchimp"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/nexternal.png" alt="nexternal"></span>
+                                <span><img src="public/images/clients/nexternal.png" alt="nexternal"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/wordpress.png" alt="wordpress"></span>
+                                <span><img src="public/images/clients/wordpress.png" alt="wordpress"></span>
                             </li>
                             <li style="opacity: 1; margin-top: 0px;">
-                                <span><img src="public/img/google.png" alt="google"></span>
+                                <span><img src="public/images/clients/google.png" alt="google"></span>
                             </li>
 
                         </ul>
@@ -806,7 +779,7 @@
 				<div>
 					<span class="fa fa-cogs fa-2x"></span>
 				</div>
-				<h1 class="white">My <span>Process</span></h1>
+				<h1 class="white">Our <span>Process</span></h1>
 			</div>
 			<!-- End Section title -->
 
@@ -817,8 +790,7 @@
 					</div>
 					<h4>Discussion</h4>
 					<p>For all projects, we have a conversation with the client.
-						We talk of all features and feasibility of the project.
-						We usually end up with crafted requirement document</p>
+						We usually end up with crafted requirement document describing the profiles for the vacancies</p>
 					<div class="line">
 						<div class="progress"></div>
 					</div>
@@ -827,8 +799,8 @@
 					<div class="process-node">
 						<i class="fa fa-lightbulb-o"></i>
 					</div>
-					<h4>Planning</h4>
-					<p>We build a proper requirement document and plan the project(using Microsoft Project). </p>
+					<h4>Find Profiles</h4>
+					<p>Find matching candidates in our databases</p>
 					<div class="line">
 						<div class="progress"></div>
 					</div>
@@ -837,8 +809,8 @@
 					<div class="process-node">
 						<i class="fa fa-desktop"></i>
 					</div>
-					<h4>Implementation</h4>
-					<p>We build each feature as planned. We usually use Agile Development </p>
+					<h4>Planning</h4>
+                    <p>Contact candidates and plan interview with corresponding company.</p>
 					<div class="line">
 						<div class="progress"></div>
 					</div>
@@ -847,8 +819,8 @@
 					<div class="process-node">
 						<i class="fa fa-flash"></i>
 					</div>
-					<h4>Review</h4>
-					<p>Testing and correction of bugs for various modules. We fix all bugs during this period</p>
+					<h4>Interview</h4>
+                    <p>We usually provide space for the company if required </p>
 					<div class="line">
 						<div class="progress"></div>
 					</div>
@@ -857,8 +829,8 @@
 					<div class="process-node">
 						<i class="fa fa-rocket"></i>
 					</div>
-					<h4>Deliver</h4>
-					<p>Deployment and testing continues. Cloud service are used for continuous integration and deployment</p>
+					<h4>Follow up</h4>
+					<p>Keep advising the candidate even after being hired</p>
 				</li>
 			</ol>
 		</div>
