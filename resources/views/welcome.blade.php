@@ -16,7 +16,7 @@
 	<title>CCTjobs - C Consultant Today</title>
 	<!-- Favicons -->
 	<!--<link rel="shortcut icon" href="img/ico-16.ico">-->
-	<link rel="shortcut icon" href="{{ asset('publicpublic/img/favicon.ico') }}">
+	<link rel="shortcut icon" href="{{ asset('public/img/favicon.ico') }}">
 	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-57.png') }}" sizes="57x57">
 	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-72.png') }}" sizes="72x72">
 	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-114.png') }}" sizes="114x114">
@@ -65,15 +65,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.jpg" alt=""></a>
+			<a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.png" alt=""></a>
 		</div>
 		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
 				<li class="active">
 					<a href="#home">Home</a>
-				</li>
-				<li class="">
-					<a href="#about">About</a>
 				</li>
 				<!--
 				<li class="">
@@ -94,6 +91,9 @@
 				<li class="">
 					<a href="#process">Process</a>
 				</li>
+                <li class="">
+                    <a href="#about">About</a>
+                </li>
 				<li class="">
 					<a href="#contact">Contact</a>
 				</li>
@@ -140,7 +140,7 @@
 						 style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
 						<span style="background-color: #F79320; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Quality</span>
 						<span style="background-color: #A7C139; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Innovation</span>
-						<span style="background-color: #a94442; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Passion</span>
+						<span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Passion</span>
 
 					</div>
 
@@ -159,7 +159,7 @@
 						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
 						 data-endspeed="300"
 						 style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 0px; margin: 0px; padding: 3px 17px; letter-spacing: -1px; font-size: 27px; left: 500px; top: 345.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-						<span style="background-color: #a94442; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
+						<span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
 					</div>
 
 
@@ -172,50 +172,6 @@
 
 </section>
 <!-- Home Section -->
-<!-- About Section -->
-<section id="about" class="section-content bg1">
-	<div class="container">
-		<div class="row">
-			<!-- Section Title -->
-			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-				<div>
-					<span class="fa fa-user fa-2x"></span>
-				</div>
-				<h1>About <span>Us</span></h1>
-			</div>
-			<!-- End Section Title -->
-		</div>
-		<div class="row">
-			<div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-				<img src="{{ asset('public/images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
-				<!-- YOUR PHOTO
-				<div class="name-title">
-					<!--<h2>Arnold Chuenffo</h2>
-					 Your Name
-					<h5>Full Stack Developer</h5>
-				</div>-->
-			</div>
-			<!-- some text about yourself -->
-			<div class="col-md-6 item_top" style="opacity: 1; top: 0px;">
-				<!---->
-				<p class="quoteline">
-					All kinds of job connection.
-				</p>
-				<p>
-					C Consultant Today (CCT) helps companies find the great profile they need for their vacancies.
-
-				</p>
-				<p>
-                    Find your dream job  with CCT
-				</p>
-			</div>
-
-		</div>
-
-	</div>
-</section>
-<!-- End About Section -->
-
 <!-- Portfolio Section
 <section id="portfolio" class="section-content bg3">
     <div class="container">
@@ -467,7 +423,7 @@
 <!-- End Portfolio Section -->
 
 <!-- Skill Section -->
-<section id="services" class="section-content bg2">
+<section id="services" class="section-content bg1">
 	<div class="container">
 		<div class="row">
 			<!-- Section Title -->
@@ -475,7 +431,7 @@
 				<div>
 					<span class="fa fa-bar-chart-o fa-2x"></span>
 				</div>
-				<h1>Our <span>Services</span></h1><br/>
+				<h1>Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Services</span></h1><br/>
                 <h3 class="padBottom killMargin">We have solutions for your recruiting challenges.</h3>
                 <h5>From unkilled to skilled profiles</h5>
 			</div>
@@ -491,9 +447,9 @@
                         <i class="fa fa-building fa-2x"></i>
                     </div>
                     <div class="service-box-info">
-                        <p>
+                        <h4>
                             We have the solution to your recruiting challenges.
-                        </p>
+                        </h4>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -506,9 +462,9 @@
                         <i class="fa fa-arrows fa-3x"></i>
                     </div>
                     <div class="service-box-info">
-                        <p>
+                        <h4>
                             Build your profile with us to get your dream job.
-                        </p>
+                        </h4>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -521,9 +477,9 @@
                         <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true" ></i>
                     </div>
                     <div class="service-box-info">
-                        <p>
+                        <h4>
                             Lets build a strategic campaign together.
-                        </p>
+                        </h4>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -687,7 +643,7 @@
 					<div>
 						<span class="fa fa-users fa-2x"></span>
 					</div>
-					<h1 class="white">Our <span>Clients</span></h1>
+					<h1 class="white">Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Clients</span></h1>
 				</div>
 				<!-- End Section title -->
 			</div>
@@ -779,7 +735,7 @@
 				<div>
 					<span class="fa fa-cogs fa-2x"></span>
 				</div>
-				<h1 class="white">Our <span>Process</span></h1>
+				<h1 class="white">Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Process</span></h1>
 			</div>
 			<!-- End Section title -->
 
@@ -797,7 +753,7 @@
 				</li>
 				<li class="">
 					<div class="process-node">
-						<i class="fa fa-lightbulb-o"></i>
+						<i class="fa fa-desktop"></i>
 					</div>
 					<h4>Find Profiles</h4>
 					<p>Find matching candidates in our databases</p>
@@ -807,7 +763,7 @@
 				</li>
 				<li class="">
 					<div class="process-node">
-						<i class="fa fa-desktop"></i>
+						<i class="fa fa-calendar-o"></i>
 					</div>
 					<h4>Planning</h4>
                     <p>Contact candidates and plan interview with corresponding company.</p>
@@ -837,6 +793,53 @@
 	</div>
 </section>
 <!-- End Process Section -->
+
+
+<!-- About Section -->
+<section id="about" class="section-content bg1">
+    <div class="container">
+        <div class="row">
+            <!-- Section Title -->
+            <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
+                <div>
+                    <span class="fa fa-user fa-2x"></span>
+                </div>
+                <h1>About <span>Us</span></h1>
+            </div>
+            <!-- End Section Title -->
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
+                <img src="{{ asset('public/images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
+                <!-- YOUR PHOTO
+                <div class="name-title">
+                    <!--<h2>Arnold Chuenffo</h2>
+                     Your Name
+                    <h5>Full Stack Developer</h5>
+                </div>-->
+            </div>
+            <!-- some text about yourself -->
+            <div class="col-md-6 item_top" style="opacity: 1; top: 0px;">
+                <!---->
+                <p class="quoteline">
+                    All kinds of job connection.
+                </p>
+                <h4>
+                    C Consultant Today (CCT) helps COMPANIES find the great profile they need for their vacancies.
+
+                </h4>
+                <p>
+                    Connecting people seeking meaningful and exciting work with the EMPLOYERS who are looking for
+                    their ENTHUSIASM, ENERGY, AND KNOWLEDGE.<br> We believe that you can and should LOVE YOUR JOB,
+                    and we want to help make that happen!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- End About Section -->
 
 <!-- Contact Section -->
 <section id="contact" class="section-content bg2">
@@ -920,7 +923,7 @@
 <footer class="text-center">
 	<!-- Footer Text -->
 	<div class="container text-center item_top" style="opacity: 1; top: 0px;">
-		<img class="footer-logo" src="public/img/logo1.jpg" alt="footer logo"><br>
+		<img class="footer-logo" src="public/img/logo1.png" alt="footer logo"><br>
 		 Copyright 2017. All Rights Reserved.
 	</div>
 	<!-- End Footer Text -->
