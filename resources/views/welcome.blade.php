@@ -487,7 +487,7 @@
         </div>
 		<div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <div class="col-md-4 ">
-                <div class="" data-percent="">
+                <div class="chart" data-percent="">
                     <span class="percent">350</span>
                     <h4>Community</h4>
                     <p>
@@ -900,6 +900,9 @@
 					<div class="form-group">
 						<input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
 					</div>
+                <div class="form-group">
+                    <input type="tel" name="tel" id="tel" class="form-control required email" placeholder="E.g +91 8699928800">
+                </div>
 					<div class="form-group">
 						<textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Enter Message"></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused" data-grammarly-reactid=".0"><div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div><span class="_9b5ef6-btn_text" data-grammarly-reactid=".0.1">Not signed in</span></div></grammarly-btn>
 					</div>
