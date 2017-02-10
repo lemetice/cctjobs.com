@@ -138,9 +138,9 @@
 						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
 						 data-endspeed="300"
 						 style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-						<span style="background-color: #F79320; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Quality</span>
-						<span style="background-color: #A7C139; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Innovation</span>
-						<span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Passion</span>
+						<span >Quality</span>
+						<span >Innovation</span>
+						<span >Passion</span>
 
 					</div>
 
@@ -901,7 +901,7 @@
 						<input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
 					</div>
                 <div class="form-group">
-                    <input type="tel" name="tel" id="tel" class="form-control required email" placeholder="E.g +91 8699928800">
+                    <input type="tel" name="tel" id="tel" class="form-control required" placeholder="E.g +91 8699928800">
                 </div>
 					<div class="form-group">
 						<textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Enter Message"></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused" data-grammarly-reactid=".0"><div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div><span class="_9b5ef6-btn_text" data-grammarly-reactid=".0.1">Not signed in</span></div></grammarly-btn>
