@@ -447,9 +447,9 @@
                         <i class="fa fa-building fa-2x"></i>
                     </div>
                     <div class="service-box-info">
-                        <h4>
+                        <p>
                             We have the solution to your recruiting challenges.
-                        </h4>
+                        </p>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -462,9 +462,9 @@
                         <i class="fa fa-arrows fa-3x"></i>
                     </div>
                     <div class="service-box-info">
-                        <h4>
+                        <p>
                             Build your profile with us to get your dream job.
-                        </h4>
+                        </p>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -477,9 +477,9 @@
                         <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true" ></i>
                     </div>
                     <div class="service-box-info">
-                        <h4>
+                        <p>
                             Lets build a strategic campaign together.
-                        </h4>
+                        </p>
                     </div>
                 </div>
                 <!-- End Service -->
@@ -487,7 +487,7 @@
         </div>
 		<div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <div class="col-md-4 ">
-                <div class="chart" data-percent="">
+                <div class="chart" data-percent="300">
                     <span class="percent">350</span>
                     <h4>Community</h4>
                     <p>
@@ -745,7 +745,7 @@
 						<i class="fa fa-comments"></i>
 					</div>
 					<h4>Discussion</h4>
-					<p>For all projects, we have a conversation with the client.
+					<p>For all projects, 
 						We usually end up with crafted requirement document describing the profiles for the vacancies</p>
 					<div class="line">
 						<div class="progress"></div>
