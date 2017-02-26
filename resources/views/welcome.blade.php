@@ -11,8 +11,8 @@
 	</style>
 
 	<meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no">
-	<meta name="description" content="Arnold Chuenffo's Resume">
-	<meta name="author" content="TheThemeLab">
+	<meta name="description" content="C Consultant Today">
+	<meta name="author" content="Awesome Arnold">
 	<title>CCTjobs - C Consultant Today</title>
 	<!-- Favicons -->
 	<!--<link rel="shortcut icon" href="img/ico-16.ico">-->
@@ -801,39 +801,75 @@
         <div class="row">
             <!-- Section Title -->
             <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-                <div>
-                    <span class="fa fa-user fa-2x"></span>
-                </div>
+
                 <h1>About <span>Us</span></h1>
             </div>
             <!-- End Section Title -->
         </div>
-        <div class="row">
-            <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-                <img src="{{ asset('public/images/721.jpg') }}" class="img-center img-responsive" alt="My photo">
-                <!-- YOUR PHOTO
-                <div class="name-title">
-                    <!--<h2>Arnold Chuenffo</h2>
-                     Your Name
-                    <h5>Full Stack Developer</h5>
-                </div>-->
-            </div>
-            <!-- some text about yourself -->
-            <div class="col-md-6 item_top" style="opacity: 1; top: 0px;">
-                <!---->
-                <p class="quoteline">
-                    All kinds of job connection.
-                </p>
-                <h4>
-                    C Consultant Today (CCT) helps COMPANIES find the great profile they need for their vacancies.
+        <div class="row text-center" >
+            <div class="col-lg-12 col-sm-12" style="opacity: 1; bottom: 0px;">
+                <div class="card hovercard">
+                    <div class="card-background">
+                        <img class="card-bkimg" alt="" src="http://lorempixel.com/100/100/people/9/">
+                        <!-- http://lorempixel.com/850/280/people/9/ -->
+                    </div>
+                    <div class="useravatar">
+                        <img alt="" src="public/img/logo1.png">
+                    </div>
+                    <div class="card-info"> <span class="card-title">C Consultant Today</span>
 
-                </h4>
-                <p>
-                    Connecting people seeking meaningful and exciting work with the EMPLOYERS who are looking for
-                    their ENTHUSIASM, ENERGY, AND KNOWLEDGE.<br> We believe that you can and should LOVE YOUR JOB,
-                    and we want to help make that happen!
-                </p>
+                    </div>
+                </div>
+                <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button type="button" id="stars" class="btn btn-danger" href="#tab1" data-toggle="tab">
+                            <div class="hidden-xs">Overview</div>
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab">
+                            <div class="hidden-xs">Vision</div>
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                            <div class="hidden-xs">Mission</div>
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" id="hr" class="btn btn-default" href="#tab4" data-toggle="tab">
+                            <div class="hidden-xs">HR Policies</div>
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" id="cct" class="btn btn-default" href="#tab5" data-toggle="tab">
+                            <div class="hidden-xs">Why CCT?</div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="tab-content"><br/>
+                        <div class="tab-pane fade in active" id="tab1">
+                            <p>CCT is a domestic placement service which finds the best candidates for the best and highly reputed companies that provide a prosperous professional life to their employees. Generally, companies are looking for highly qualified, experienced and professional employees for their vacancies. We help both the job seekers and companies meet their target(s), as we aim Seeker&lsquo;s Point.</p>
+                        </div>
+                        <div class="tab-pane fade in" id="tab2">
+                            <p>Our vision is to provide the perfect platform as per the potential. We believe in depth of career of candidate and looking forward for their bright as successful career.  Level of jobs is going very low in Punjab due to drugs. So, when they are counseled, they will know what is the aim of their life &quot; For life is only once&quot; they should live with &quot;Dignity&quot;  </p>
+                        </div>
+                        <div class="tab-pane fade in" id="tab3">
+                            <p>We believe on an ethical, scientific and people friendly working environment. CCT is absolutely dedicated to the satisfaction of the client. we strive to improve client satisfaction by enhancing our Quality Management System.  </p>
+                        </div>
+                        <div class="tab-pane fade in" id="tab4">
+                            <p>Human Resource policies are the guiding principles that define the various aspects of pre-training to workforce such as hiring, training, assessing and rewarding etc. CCT which is based in Jalandhar, Punjab, provide impeccable services related to HR policies to array of companies. We understand how important to set HR policies for any organization. If it is not written properly, this can lead to misunderstandings among employees and employers. These issues can relate to rights and obligation of the working members of the company quite frequently. we charge 30% of the first salary and we would like you to keep 30% of their first salary with you so that we can collect from you as we do not deposit any original document with us of the candidate. All paperwork is done (signs and thump impression) is taken so that the candidate should have no argument on the day of deduction of the salary and if the company is paying us then we do not charge anything from the candidate. So we would like to conclude by saying that all paperwork is done professionally if you want us to visit you and discuss, we would love to further know each other and work more efficiently.</p>
+                        </div>
+                        <div class="tab-pane fade in" id="tab5">
+                            <p>CCT is a channel where we find the right candidate for the right company and vice versa. We are very smooth and transparent in our dealing. We discuss the company profile, objective including their goals, potential growth opportunities and ability to learn something new which could enhance a person job knowledge.  </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
 
         </div>
 
