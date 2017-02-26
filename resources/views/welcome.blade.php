@@ -745,7 +745,7 @@
 						<i class="fa fa-comments"></i>
 					</div>
 					<h4>Discussion</h4>
-					<p>For all projects, 
+					<p>For all projects,
 						We usually end up with crafted requirement document describing the profiles for the vacancies</p>
 					<div class="line">
 						<div class="progress"></div>
@@ -823,27 +823,27 @@
                 <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
                     <div class="btn-group" role="group">
                         <button type="button" id="stars" class="btn btn-danger" href="#tab1" data-toggle="tab">
-                            <div class="hidden-xs">Overview</div>
+                            <div class="hidden-xs"><h3>Overview</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
                         <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab">
-                            <div class="hidden-xs">Vision</div>
+                            <div class="hidden-xs"><h3>Vision</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
                         <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
-                            <div class="hidden-xs">Mission</div>
+                            <div class="hidden-xs"><h3>Mission</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
                         <button type="button" id="hr" class="btn btn-default" href="#tab4" data-toggle="tab">
-                            <div class="hidden-xs">HR Policies</div>
+                            <div class="hidden-xs"><h3>HR Policies</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
                         <button type="button" id="cct" class="btn btn-default" href="#tab5" data-toggle="tab">
-                            <div class="hidden-xs">Why CCT?</div>
+                            <div class="hidden-xs"><h3>Why CCT?</h3></div>
                         </button>
                     </div>
                 </div>
