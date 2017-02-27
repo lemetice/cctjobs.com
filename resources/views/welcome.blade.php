@@ -1,173 +1,227 @@
 <!DOCTYPE html>
 <!-- saved from url=(0047) -->
-<html lang="en-US" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__statfa_net">
+<html lang="en-US"
+      class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__statfa_net">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link type="text/css" rel="stylesheet" href="{{ asset('public/css/css') }}">
-	<style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
-	</style>
-	<style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
-	<style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
-	</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="{{ asset('public/css/css') }}">
+    <style type="text/css">.gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
+            font-size: 10px
+        }
+    </style>
+    <style type="text/css">@media print {
+            .gm-style .gmnoprint, .gmnoprint {
+                display: none
+            }
+        }
 
-	<meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no">
-	<meta name="description" content="C Consultant Today">
-	<meta name="author" content="Awesome Arnold">
-	<title>CCTjobs - C Consultant Today</title>
-	<!-- Favicons -->
-	<!--<link rel="shortcut icon" href="img/ico-16.ico">-->
-	<link rel="shortcut icon" href="{{ asset('public/img/favicon.ico') }}">
-	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-57.png') }}" sizes="57x57">
-	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-72.png') }}" sizes="72x72">
-	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-114.png') }}" sizes="114x114">
-	<link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-144.png') }}" sizes="144x144">
-	<!-- List of Stylesheet -->
-	<link type="text/css" href="{{ asset('public/css/normalize.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('public/css/font-awesome.min.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('public/css/style.css') }}" rel="stylesheet">
-	<link type="text/css" href="{{ asset('public/css/style-responsive.css') }}" rel="stylesheet">
-	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/settings.css') }}" media="screen">
-	<!-- END SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<!-- Google Font -->
-	<link href="{{ asset('public/css/css(1)') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('public/css/css(2)') }}" rel="stylesheet" type="text/css">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="{{ asset('public/js/html5shiv.js') }}"></script>
-	<script src="{{ asset('public/js/respond.min.js') }}"></script>
-	<![endif]-->
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/common.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/util.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/stats.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/map.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/marker.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/onion.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/controls.js.download') }}"></script>
-	<script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/infowindow.js.download') }}"></script>
+        @media screen {
+            .gm-style .gmnoscreen, .gmnoscreen {
+                display: none
+            }
+        }</style>
+    <style type="text/css">.gm-style {
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            text-decoration: none
+        }
+
+        .gm-style img {
+            max-width: none
+        }
+    </style>
+
+    <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="C Consultant Today">
+    <meta name="author" content="Awesome Arnold">
+    <title>CCTjobs - C Consultant Today</title>
+    <!-- Favicons -->
+    <!--<link rel="shortcut icon" href="img/ico-16.ico">-->
+    <link rel="shortcut icon" href="{{ asset('public/img/favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-57.png') }}" sizes="57x57">
+    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-72.png') }}" sizes="72x72">
+    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-114.png') }}" sizes="114x114">
+    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-144.png') }}" sizes="144x144">
+    <!-- List of Stylesheet -->
+    <link type="text/css" href="{{ asset('public/css/normalize.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('public/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('public/css/style.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('public/css/style-responsive.css') }}" rel="stylesheet">
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/settings.css') }}" media="screen">
+    <!-- END SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <!-- Google Font -->
+    <link href="{{ asset('public/css/css(1)') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('public/css/css(2)') }}" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="{{ asset('public/js/html5shiv.js') }}"></script>
+    <script src="{{ asset('public/js/respond.min.js') }}"></script>
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/common.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/util.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/stats.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/map.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/marker.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/onion.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/controls.js.download') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('public/js/infowindow.js.download') }}"></script>
 </head>
 
-<div class="gr-top-z-index gr-top-zero" tabindex="-1"><div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".2"><div class="_44eb54-panel" data-grammarly-reactid=".2.0"><div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".2.0.0"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.1"><div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".2.0.1.0"></div></div><div class="_44eb54-line" data-grammarly-reactid=".2.0.3"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.5"><div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1" data-grammarly-reactid=".2.0.5.0"></div></div></div></div></div><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"><div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".1"><div class="_44eb54-panel" data-grammarly-reactid=".1.0"><div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".1.0.0"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.1"><div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".1.0.1.0"></div></div><div class="_44eb54-line" data-grammarly-reactid=".1.0.3"></div><div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.5"><div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1" data-grammarly-reactid=".1.0.5.0"></div></div></div></div></div><body data-gr-c-s-loaded="true">
+<div class="gr-top-z-index gr-top-zero" tabindex="-1">
+    <div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".2">
+        <div class="_44eb54-panel" data-grammarly-reactid=".2.0">
+            <div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".2.0.0"></div>
+            <div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.1">
+                <div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".2.0.1.0"></div>
+            </div>
+            <div class="_44eb54-line" data-grammarly-reactid=".2.0.3"></div>
+            <div class="_44eb54-buttonArea" data-grammarly-reactid=".2.0.5">
+                <div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1"
+                     data-grammarly-reactid=".2.0.5.0"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;">
+    <div class="_44eb54-hoverMenu" style="transform:translate(NaNpx, NaNpx);" data-grammarly-reactid=".1">
+        <div class="_44eb54-panel" data-grammarly-reactid=".1.0">
+            <div class="_44eb54-tooltip _44eb54-tooltip_hidden undefined" data-grammarly-reactid=".1.0.0"></div>
+            <div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.1">
+                <div class="_44eb54-btn _44eb54-btn_disable" tabindex="-1" data-grammarly-reactid=".1.0.1.0"></div>
+            </div>
+            <div class="_44eb54-line" data-grammarly-reactid=".1.0.3"></div>
+            <div class="_44eb54-buttonArea" data-grammarly-reactid=".1.0.5">
+                <div class="_44eb54-btn _44eb54-btn_grammarly" data-action="editor" tabindex="-1"
+                     data-grammarly-reactid=".1.0.5.0"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<body data-gr-c-s-loaded="true">
 <!-- Pre-loader -->
 <div class="mask" style="display: none;">
-	<div id="intro-loader" style="display: none;">
-	</div>
+    <div id="intro-loader" style="display: none;">
+    </div>
 </div>
 <!-- End Pre-loader -->
 <!-- Navbar -->
 <div class="navbar navbar-transparent navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.png" alt=""></a>
-		</div>
-		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
-			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="#home">Home</a>
-				</li>
-				<!--
-				<li class="">
-					<a href="#portfolio">Works</a>
-				</li>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.png" alt=""></a>
+        </div>
+        <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#home">Home</a>
+                </li>
+                <!--
+                <li class="">
+                    <a href="#portfolio">Works</a>
+                </li>
                  -->
-				<li class="">
-					<a href="#services">Services</a>
-				</li>
-				<!--
-				<li class="">
-					<a href="#experience">Resume</a>
-				</li>
-				-->
-				<li class="">
-					<a href="#clients">Clients</a>
-				</li>
-				<li class="">
-					<a href="#process">Process</a>
-				</li>
+                <li class="">
+                    <a href="#services">Services</a>
+                </li>
+                <!--
+                <li class="">
+                    <a href="#experience">Resume</a>
+                </li>
+                -->
+                <li class="">
+                    <a href="#clients">Clients</a>
+                </li>
+                <li class="">
+                    <a href="#process">Process</a>
+                </li>
                 <li class="">
                     <a href="#about">About</a>
                 </li>
-				<li class="">
-					<a href="#contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<!--/.navbar-collapse -->
-	</div>
+                <li class="">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--/.navbar-collapse -->
+    </div>
 </div>
 <!-- End Navbar -->
 
 <!-- Home Section -->
 <section id="home">
-	<!--
+    <!--
     #################################
             - THEMEPUNCH BANNER -
     #################################
     -->
-	<div class="tp-banner-container" style="max-height: none; overflow: visible; height: 589px;">
-		<div class="tp-banner revslider-initialised tp-simpleresponsive" id="revslider-185" style="height: 100%; max-height: none;">
-			<ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
+    <div class="tp-banner-container" style="max-height: none; overflow: visible; height: 589px;">
+        <div class="tp-banner revslider-initialised tp-simpleresponsive" id="revslider-185"
+             style="height: 100%; max-height: none;">
+            <ul class="tp-revslider-mainul"
+                style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
 
-				<!-- SLIDE  -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="600" data-saveperformance="on"
-					data-title="Slide 2" class="tp-revslider-slidesli active-revslide current-sr-slide-visible"
-					style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;">
-					<!-- MAIN IMAGE -->
+                <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="600" data-saveperformance="on"
+                    data-title="Slide 2" class="tp-revslider-slidesli active-revslide current-sr-slide-visible"
+                    style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;">
+                    <!-- MAIN IMAGE -->
 
-					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined"
-						 data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined"
-						 data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined"
-						 data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined"
-						 data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
-						<div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
-							 data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined"
-							 src="public/images/slide2.jpg" data-src="public/images/slide2.jpg"
-							 style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;public/images/slide2.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div>
-						<div class="tp-dottedoverlay twoxtwo"></div>
-					</div>
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme sft sub-heading start" data-x="center" data-hoffset="0"
-						 data-y="center" data-voffset="-50" data-speed="300" data-start="1200"
-						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
-						 data-endspeed="300"
-						 style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-						<span >Quality</span>-
-						<span >Innovation</span>-
-						<span >Passion</span>
+                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined"
+                         data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined"
+                         data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined"
+                         data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined"
+                         data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover"
+                             data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined"
+                             src="public/images/slide2.jpg" data-src="public/images/slide2.jpg"
+                             style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;public/images/slide2.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div>
+                        <div class="tp-dottedoverlay twoxtwo"></div>
+                    </div>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-resizeme sft sub-heading start" data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-50" data-speed="300" data-start="1200"
+                         data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+                         data-endspeed="300"
+                         style="z-index: 2; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 43px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 27px; left: 431px; top: 230.929px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                        <span>Quality</span>-
+                        <span>Innovation</span>-
+                        <span>Passion</span>
 
-					</div>
+                    </div>
 
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
-						 data-y="center" data-voffset="30" data-speed="300" data-start="1300"
-						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
-						 data-endspeed="300"
-						 style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 3px; margin: 0px; padding: 3px 17px; letter-spacing: -2px; font-size: 67px; left: 384px; top: 273.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-						C Consultant Today
-					</div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="30" data-speed="300" data-start="1300"
+                         data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+                         data-endspeed="300"
+                         style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 3px; margin: 0px; padding: 3px 17px; letter-spacing: -2px; font-size: 67px; left: 384px; top: 273.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                        C Consultant Today
+                    </div>
 
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
-						 data-y="center" data-voffset="30" data-speed="300" data-start="1300"
-						 data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
-						 data-endspeed="300"
-						 style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 0px; margin: 0px; padding: 3px 17px; letter-spacing: -1px; font-size: 27px; left: 500px; top: 345.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-						<span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
-					</div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption box-title tp-fade sfb tp-resizeme start" data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="30" data-speed="300" data-start="1300"
+                         data-easing="Power1.easeInOut" data-endeasing="Power1.easeInOut" data-captionhidden="off"
+                         data-endspeed="300"
+                         style="z-index: 3; white-space: nowrap; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 81px; border-width: 0px; margin: 0px; padding: 3px 17px; letter-spacing: -1px; font-size: 27px; left: 500px; top: 345.243px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                        <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
+                    </div>
 
 
-				</li>
-			</ul>
-		</div>
-	</div>
-	<!-- END REVOLUTION SLIDER -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- END REVOLUTION SLIDER -->
 
 
 </section>
@@ -424,25 +478,29 @@
 
 <!-- Skill Section -->
 <section id="services" class="section-content bg1">
-	<div class="container">
-		<div class="row">
-			<!-- Section Title -->
-			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-				<div>
-					<span class="fa fa-bar-chart-o fa-2x"></span>
-				</div>
-				<h1>Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Services</span></h1><br/>
+    <div class="container">
+        <div class="row">
+            <!-- Section Title -->
+            <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
+                <div>
+                    <span class="fa fa-bar-chart-o fa-2x"></span>
+                </div>
+                <h1>Our <span
+                            style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Services</span>
+                </h1><br/>
+
                 <h3 class="padBottom killMargin">We have solutions for your recruiting challenges.</h3>
                 <h5>From unkilled to skilled profiles</h5>
-			</div>
-			<!-- End Section Title -->
-		</div>
+            </div>
+            <!-- End Section Title -->
+        </div>
 
         <div class="row services">
             <div class="col-md-4">
                 <!-- Service -->
                 <div class="services-box new-line item_left" style="opacity: 1; left: 0px;">
                     <h4>Enterprise</h4>
+
                     <div class="services-box-icon">
                         <i class="fa fa-building fa-2x"></i>
                     </div>
@@ -458,6 +516,7 @@
                 <!-- Service -->
                 <div class="services-box new-line item_bottom" style="opacity: 1; bottom: 0px;">
                     <h4>Job Seekers</h4>
+
                     <div class="services-box-icon">
                         <i class="fa fa-arrows fa-3x"></i>
                     </div>
@@ -473,8 +532,9 @@
                 <!-- Service -->
                 <div class="services-box new-line item_right" style="opacity: 1; right: 0px;">
                     <h4>Recruitment Campaign</h4>
+
                     <div class="services-box-icon"><i class="fa fa-file-image-o" aria-hidden="true"></i>
-                        <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true" ></i>
+                        <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true"></i>
                     </div>
                     <div class="service-box-info">
                         <p>
@@ -485,47 +545,51 @@
                 <!-- End Service -->
             </div>
         </div>
-		<div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
+        <div class="row text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <div class="col-md-4 ">
                 <div class="chart" data-percent="300">
                     <span class="percent">350</span>
                     <h4>Community</h4>
+
                     <p>
                         Both skilled and unskilled
                     </p>
-                    <canvas height="150" width="150"></canvas></div>
+                    <canvas height="150" width="150"></canvas>
+                </div>
             </div>
-			<div class="col-md-4">
-				<div class="chart" data-percent="65">
-					<span class="percent">65</span>
-					<h4>Recruited</h4>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-			<div class="col-md-4">
-				<div class="chart" data-percent="30">
-					<span class="percent">30</span>
-					<h4>Cost per hire</h4>
-					<canvas height="150" width="150"></canvas></div>
-			</div>
-		</div>
+            <div class="col-md-4">
+                <div class="chart" data-percent="65">
+                    <span class="percent">65</span>
+                    <h4>Recruited</h4>
+                    <canvas height="150" width="150"></canvas>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="chart" data-percent="30">
+                    <span class="percent">30</span>
+                    <h4>Cost per hire</h4>
+                    <canvas height="150" width="150"></canvas>
+                </div>
+            </div>
+        </div>
 
-		<!-- skills end -->
-	</div>
+        <!-- skills end -->
+    </div>
 </section>
 <!-- End Skill Section -->
 <div class="fullwidth-section bg-callout">
-	<div class="container">
-		<div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
-			<h1 class="white padBottom killMargin">I am a <strong>Job seeker</strong></h1>
-			<a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
+    <div class="container">
+        <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
+            <h1 class="white padBottom killMargin">I am a <strong>Job seeker</strong></h1>
+            <a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
             <span class="btn btn-primary btn-lg" href="#"><i class="fa fa-weixin"></i> And get job notifications</span>
-		</div>
+        </div>
         <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <h1 class="white padBottom killMargin">I am <strong>Company</strong></h1>
             <a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;&nbsp;
         </div>
 
-	</div>
+    </div>
 </div>
 <!-- Resume Section
 <section id="experience" class="section-content bg2">
@@ -634,63 +698,92 @@
 <!-- End Experience Timeline Section -->
 
 <!-- Clients Section -->
-<section id="clients" class="clients parallax" style="background-image: url(&quot;images/clients.png&quot;); background-position: 50% 82px;">
-	<div class="parallax-overlay">
-		<div class="container">
-			<div class="row">
-				<!-- Section title -->
-				<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-					<div>
-						<span class="fa fa-users fa-2x"></span>
-					</div>
-					<h1 class="white">Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Clients</span></h1>
-				</div>
-				<!-- End Section title -->
-			</div>
+<section id="clients" class="clients parallax"
+         style="background-image: url(&quot;images/clients.png&quot;); background-position: 50% 82px;">
+    <div class="parallax-overlay">
+        <div class="container">
+            <div class="row">
+                <!-- Section title -->
+                <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
+                    <div>
+                        <span class="fa fa-users fa-2x"></span>
+                    </div>
+                    <h1 class="white">Our <span
+                                style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Clients</span>
+                    </h1>
+                </div>
+                <!-- End Section title -->
+            </div>
 
-			<div class="row item_bottom" style="opacity: 1; bottom: 0px;">
+            <div class="row item_bottom" style="opacity: 1; bottom: 0px;">
 
-				<h4 class="white">What our <strong>clients say</strong></h4>
+                <h4 class="white">What our <strong>clients say</strong></h4>
 
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 
-					<div class="swiper-testimonial">
+                    <div class="swiper-testimonial">
 
-						<div class="swiper-wrapper" style="width: 2775px; height: 200px; transform: translate3d(-1110px, 0px, 0px); transition-duration: 0.4s;"><div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 555px; height: 200px;">
-								<p class="quote">"I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job."</p>
-								<p class="author">Nandwi</p>
-								<p class="company">Owner <a href="#">@CameroonDiaspora</a></p>
-							</div>
+                        <div class="swiper-wrapper"
+                             style="width: 2775px; height: 200px; transform: translate3d(-1110px, 0px, 0px); transition-duration: 0.4s;">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate"
+                                 style="width: 555px; height: 200px;">
+                                <p class="quote">"I am incredibly happy with the increased traffic my site has received
+                                    since working with you! He is the best at this job."</p>
 
-							<!--First Slide-->
-							<div class="swiper-slide" style="width: 555px; height: 200px;">
-								<p class="quote">"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure."</p>
-								<p class="author">Guy Hermann</p>
-								<p class="company">CEO <a href="#">@Floraison</a></p>
-							</div>
+                                <p class="author">Nandwi</p>
 
-							<!--Second Slide-->
-							<div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 555px; height: 200px;">
-								<p class="quote">"My website couldn’t look better after working with the him on the redesign. Now my site and corporate	branding is outstanding! He is awesome."</p>
-								<p class="author">Jack Ekwe</p>
-								<p class="company">Manager <a href="#">@Western Union</a></p>
-							</div>
+                                <p class="company">Owner <a href="#">@CameroonDiaspora</a></p>
+                            </div>
 
-							<!--Third Slide-->
-							<div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 555px; height: 200px;">
-								<p class="quote">"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure."</p>
-								<p class="author">Daniel Snapp</p>
-								<p class="company">CEO <a href="#">@Care Protocol</a></p>
-							</div>
-						</div><!--/ .swiper-wrapper -->-->
-						<div class="pagination-testimonial"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div> <!--/ swiper slider pagination -->
-					</div><!--/ .swiper-testimonial -->
-				</div>
+                            <!--First Slide-->
+                            <div class="swiper-slide" style="width: 555px; height: 200px;">
+                                <p class="quote">"It’s easy to see the passion that the guys have for their work. He
+                                    really care about making unique designs for their clients, and put in incredible
+                                    effort to make the whole process a real pleasure."</p>
 
-			</div> <!--/ .row -->
+                                <p class="author">Guy Hermann</p>
+
+                                <p class="company">CEO <a href="#">@Floraison</a></p>
+                            </div>
+
+                            <!--Second Slide-->
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-active"
+                                 style="width: 555px; height: 200px;">
+                                <p class="quote">"My website couldn’t look better after working with the him on the
+                                    redesign. Now my site and corporate branding is outstanding! He is awesome."</p>
+
+                                <p class="author">Jack Ekwe</p>
+
+                                <p class="company">Manager <a href="#">@Western Union</a></p>
+                            </div>
+
+                            <!--Third Slide-->
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate"
+                                 style="width: 555px; height: 200px;">
+                                <p class="quote">"It’s easy to see the passion that the guys have for their work. He
+                                    really care about making unique designs for their clients, and put in incredible
+                                    effort to make the whole process a real pleasure."</p>
+
+                                <p class="author">Daniel Snapp</p>
+
+                                <p class="company">CEO <a href="#">@Care Protocol</a></p>
+                            </div>
+                        </div>
+                        <!--/ .swiper-wrapper -->-->
+                        <div class="pagination-testimonial"><span class="swiper-pagination-switch"></span><span
+                                    class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span
+                                    class="swiper-pagination-switch"></span></div>
+                        <!--/ swiper slider pagination -->
+                    </div>
+                    <!--/ .swiper-testimonial -->
+                </div>
+
+            </div>
+            <!--/ .row -->
 
             <div class="row new-line item_fade_in" style="opacity: 1; right: 0px;">
                 <h4 class="white">Some of <strong>my clients</strong></h4>
+
                 <div class="carrousel-container">
                     <div id="left_scroll"><a href="javascript:slide(&quot;left&quot;);"></a></div>
                     <div id="carousel_inner">
@@ -720,77 +813,89 @@
                     <input type="hidden" id="hidden_auto_slide_seconds" value="5000">
                 </div>
             </div>
-		</div>
-	</div>
+        </div>
+    </div>
 </section>
 <!-- End Clients Section -->
 
 
 <!-- Process Section -->
 <section id="process" class="section-content bg3">
-	<div class="container">
-		<div class="row">
-			<!-- Section title -->
-			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-				<div>
-					<span class="fa fa-cogs fa-2x"></span>
-				</div>
-				<h1 class="white">Our <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Process</span></h1>
-			</div>
-			<!-- End Section title -->
+    <div class="container">
+        <div class="row">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
+                <div>
+                    <span class="fa fa-cogs fa-2x"></span>
+                </div>
+                <h1 class="white">Our <span
+                            style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">Process</span>
+                </h1>
+            </div>
+            <!-- End Section title -->
 
-			<ol class="process-flow list-unstyled">
-				<li class="">
-					<div class="process-node">
-						<i class="fa fa-comments"></i>
-					</div>
-					<h4>Discussion</h4>
-					<p>For all projects,
-						We usually end up with crafted requirement document describing the profiles for the vacancies</p>
-					<div class="line">
-						<div class="progress"></div>
-					</div>
-				</li>
-				<li class="">
-					<div class="process-node">
-						<i class="fa fa-desktop"></i>
-					</div>
-					<h4>Find Profiles</h4>
-					<p>Find matching candidates in our databases</p>
-					<div class="line">
-						<div class="progress"></div>
-					</div>
-				</li>
-				<li class="">
-					<div class="process-node">
-						<i class="fa fa-calendar-o"></i>
-					</div>
-					<h4>Planning</h4>
+            <ol class="process-flow list-unstyled">
+                <li class="">
+                    <div class="process-node">
+                        <i class="fa fa-comments"></i>
+                    </div>
+                    <h4>Discussion</h4>
+
+                    <p>For all projects,
+                        We usually end up with crafted requirement document describing the profiles for the
+                        vacancies</p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="process-node">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <h4>Find Profiles</h4>
+
+                    <p>Find matching candidates in our databases</p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="process-node">
+                        <i class="fa fa-calendar-o"></i>
+                    </div>
+                    <h4>Planning</h4>
+
                     <p>Contact candidates and plan interview with corresponding company.</p>
-					<div class="line">
-						<div class="progress"></div>
-					</div>
-				</li>
-				<li class="">
-					<div class="process-node">
-						<i class="fa fa-flash"></i>
-					</div>
-					<h4>Interview</h4>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="process-node">
+                        <i class="fa fa-flash"></i>
+                    </div>
+                    <h4>Interview</h4>
+
                     <p>We usually provide space for the company if required </p>
-					<div class="line">
-						<div class="progress"></div>
-					</div>
-				</li>
-				<li class="">
-					<div class="process-node">
-						<i class="fa fa-rocket"></i>
-					</div>
-					<h4>Follow up</h4>
-					<p>Keep advising the candidate even after being hired</p>
-				</li>
-			</ol>
-		</div>
-	</div>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="process-node">
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <h4>Follow up</h4>
+
+                    <p>Keep advising the candidate even after being hired</p>
+                </li>
+            </ol>
+        </div>
+    </div>
 </section>
 <!-- End Process Section -->
 
@@ -806,7 +911,7 @@
             </div>
             <!-- End Section Title -->
         </div>
-        <div class="row text-center" >
+        <div class="row text-center">
             <div class="col-lg-12 col-sm-12" style="opacity: 1; bottom: 0px;">
                 <div class="card hovercard">
                     <div class="card-background">
@@ -816,33 +921,33 @@
                     <div class="useravatar">
                         <img alt="" src="public/img/logo1.png">
                     </div>
-                    <div class="card-info"> <span class="card-title">C Consultant Today</span>
+                    <div class="card-info"><span class="card-title">C Consultant Today</span>
 
                     </div>
                 </div>
                 <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
                     <div class="btn-group" role="group">
-                        <button type="button" id="stars" class="btn btn-danger" href="#tab1" data-toggle="tab">
+                        <button type="button" id="stars" class="btn btn-cct" href="#tab1" data-toggle="tab">
                             <div class="hidden-xs"><h3>Overview</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab">
+                        <button type="button" id="favorites" class="btn btn-cct" href="#tab2" data-toggle="tab">
                             <div class="hidden-xs"><h3>Vision</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                        <button type="button" id="following" class="btn btn-cct" href="#tab3" data-toggle="tab">
                             <div class="hidden-xs"><h3>Mission</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" id="hr" class="btn btn-default" href="#tab4" data-toggle="tab">
+                        <button type="button" id="hr" class="btn btn-cct" href="#tab4" data-toggle="tab">
                             <div class="hidden-xs"><h3>HR Policies</h3></div>
                         </button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" id="cct" class="btn btn-default" href="#tab5" data-toggle="tab">
+                        <button type="button" id="cct" class="btn btn-cct" href="#tab5" data-toggle="tab">
                             <div class="hidden-xs"><h3>Why CCT?</h3></div>
                         </button>
                     </div>
@@ -850,20 +955,47 @@
 
                 <div class="">
                     <div class="tab-content"><br/>
+
                         <div class="tab-pane fade in active" id="tab1">
-                            <p>CCT is a domestic placement service which finds the best candidates for the best and highly reputed companies that provide a prosperous professional life to their employees. Generally, companies are looking for highly qualified, experienced and professional employees for their vacancies. We help both the job seekers and companies meet their target(s), as we aim Seeker&lsquo;s Point.</p>
+                            <p>CCT is a domestic placement service which finds the best candidates for the best and
+                                highly reputed companies that provide a prosperous professional life to their employees.
+                                Generally, companies are looking for highly qualified, experienced and professional
+                                employees for their vacancies. We help both the job seekers and companies meet their
+                                target(s), as we aim Seeker&lsquo;s Point.</p>
                         </div>
                         <div class="tab-pane fade in" id="tab2">
-                            <p>Our vision is to provide the perfect platform as per the potential. We believe in depth of career of candidate and looking forward for their bright as successful career.  Level of jobs is going very low in Punjab due to drugs. So, when they are counseled, they will know what is the aim of their life &quot; For life is only once&quot; they should live with &quot;Dignity&quot;  </p>
+                            <p>Our vision is to provide the perfect platform as per the potential. We believe in depth
+                                of career of candidate and looking forward for their bright as successful career. Level
+                                of jobs is going very low in Punjab due to drugs. So, when they are counseled, they will
+                                know what is the aim of their life &quot; For life is only once&quot; they should live
+                                with &quot;Dignity&quot;  </p>
                         </div>
                         <div class="tab-pane fade in" id="tab3">
-                            <p>We believe on an ethical, scientific and people friendly working environment. CCT is absolutely dedicated to the satisfaction of the client. we strive to improve client satisfaction by enhancing our Quality Management System.  </p>
+                            <p>We believe on an ethical, scientific and people friendly working environment. CCT is
+                                absolutely dedicated to the satisfaction of the client. we strive to improve client
+                                satisfaction by enhancing our Quality Management System. </p>
                         </div>
                         <div class="tab-pane fade in" id="tab4">
-                            <p>Human Resource policies are the guiding principles that define the various aspects of pre-training to workforce such as hiring, training, assessing and rewarding etc. CCT which is based in Jalandhar, Punjab, provide impeccable services related to HR policies to array of companies. We understand how important to set HR policies for any organization. If it is not written properly, this can lead to misunderstandings among employees and employers. These issues can relate to rights and obligation of the working members of the company quite frequently. we charge 30% of the first salary and we would like you to keep 30% of their first salary with you so that we can collect from you as we do not deposit any original document with us of the candidate. All paperwork is done (signs and thump impression) is taken so that the candidate should have no argument on the day of deduction of the salary and if the company is paying us then we do not charge anything from the candidate. So we would like to conclude by saying that all paperwork is done professionally if you want us to visit you and discuss, we would love to further know each other and work more efficiently.</p>
+                            <p>Human Resource policies are the guiding principles that define the various aspects of
+                                pre-training to workforce such as hiring, training, assessing and rewarding etc. CCT
+                                which is based in Jalandhar, Punjab, provide impeccable services related to HR policies
+                                to array of companies. We understand how important to set HR policies for any
+                                organization. If it is not written properly, this can lead to misunderstandings among
+                                employees and employers. These issues can relate to rights and obligation of the working
+                                members of the company quite frequently. we charge 30% of the first salary and we would
+                                like you to keep 30% of their first salary with you so that we can collect from you as
+                                we do not deposit any original document with us of the candidate. All paperwork is done
+                                (signs and thump impression) is taken so that the candidate should have no argument on
+                                the day of deduction of the salary and if the company is paying us then we do not charge
+                                anything from the candidate. So we would like to conclude by saying that all paperwork
+                                is done professionally if you want us to visit you and discuss, we would love to further
+                                know each other and work more efficiently.</p>
                         </div>
                         <div class="tab-pane fade in" id="tab5">
-                            <p>CCT is a channel where we find the right candidate for the right company and vice versa. We are very smooth and transparent in our dealing. We discuss the company profile, objective including their goals, potential growth opportunities and ability to learn something new which could enhance a person job knowledge.  </p>
+                            <p>CCT is a channel where we find the right candidate for the right company and vice versa.
+                                We are very smooth and transparent in our dealing. We discuss the company profile,
+                                objective including their goals, potential growth opportunities and ability to learn
+                                something new which could enhance a person job knowledge. </p>
                         </div>
                     </div>
                 </div>
@@ -879,46 +1011,49 @@
 
 <!-- Contact Section -->
 <section id="contact" class="section-content bg2">
-	<div class="container">
-		<div class="row">
-			<!-- Section title -->
-			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
-				<div>
-					<span class="fa fa-envelope fa-2x"></span>
-				</div>
-				<h1>Get in <span>touch</span></h1>
-			</div>
-			<!-- End Section title -->
-		</div>
-		<div class="row item_fade_in" style="opacity: 1; right: 0px;">
-			<div class="col-md-6 col-md-offset-3 text-center contact-block">
-				<!-- Contact Details -->
-				<i class="fa fa-map-marker fa-3x"></i>
-				<p>
-					1st Floor, Near State Bank of Patiala, Sethi Complex, Rama Mandi Jalandhar <br>
-					114 005 Punjab, India
-				</p>
-				<p>
-					+91 7589088881<br>
+    <div class="container">
+        <div class="row">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
+                <div>
+                    <span class="fa fa-envelope fa-2x"></span>
+                </div>
+                <h1>Get in <span>touch</span></h1>
+            </div>
+            <!-- End Section title -->
+        </div>
+        <div class="row item_fade_in" style="opacity: 1; right: 0px;">
+            <div class="col-md-6 col-md-offset-3 text-center contact-block">
+                <!-- Contact Details -->
+                <i class="fa fa-map-marker fa-3x"></i>
+
+                <p>
+                    1st Floor, Near State Bank of Patiala, Sethi Complex, Rama Mandi Jalandhar <br>
+                    114 005 Punjab, India
+                </p>
+
+                <p>
+                    +91 7589088881<br>
                     +91 8699928800
-				</p>
-				<!-- End Contact Details -->
-				<!-- Social Icon -->
-				<div class="social-icon">
-					<a href="https://www.facebook.com/cctjobs"><i class="fa fa-facebook-square fa-3x"></i></a>
-					<a href="https://www.twitter.com/cctjobs"><i class="fa fa-twitter-square fa-3x"></i></a>
-					<a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
-					<a href="https://www.linkedin.com/in/cctjobs
+                </p>
+                <!-- End Contact Details -->
+                <!-- Social Icon -->
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/cctjobs"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.twitter.com/cctjobs"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/cctjobs
 "><i class="fa fa-linkedin-square fa-3x"></i></a>
-				</div>
-				<!-- End Social Icon -->
-			</div>
-		</div>
-		<div class="row item_fade_in" style="opacity: 1; right: 0px;">
-			<h4 class="text-center">Interestesd? Drop us a Line.</h4>
-			<div class="col-md-6 col-md-offset-3">
-				<div class="form-respond text-center">
-				</div>
+                </div>
+                <!-- End Social Icon -->
+            </div>
+        </div>
+        <div class="row item_fade_in" style="opacity: 1; right: 0px;">
+            <h4 class="text-center">Interestesd? Drop us a Line.</h4>
+
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-respond text-center">
+                </div>
                 {!! Form::open(
                                   array(
                                   'url' => 'contact-us',
@@ -929,32 +1064,44 @@
                                   'id'=> "contactform"
                                   ))
                                  !!}
-				<!--<form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form" style="opacity: 1; bottom: 0px;">-->
-					<div class="form-group">
-						<input type="text" name="name" id="name" class="form-control required" placeholder="Name">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="tel" name="tel" id="email" class="form-control required " placeholder="tel: +91 7837973423">
-                    </div>
-					<div class="form-group">
-						<input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
-					</div>
+                        <!--<form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form" style="opacity: 1; bottom: 0px;">-->
                 <div class="form-group">
-                    <textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Enter Message"></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused" data-grammarly-reactid=".0">
-                            <div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div><span class="_9b5ef6-btn_text" data-grammarly-reactid=".0.1">Not signed in</span></div></grammarly-btn>
+                    <input type="text" name="name" id="name" class="form-control required" placeholder="Name">
                 </div>
-					<div class="form-group text-center">
-						<input type="submit" id="contactForm_submit" class="btn btn-trans btn-border btn-full" value="Submit">
-					</div>
-					<!-- antispam code -->
-					<div class="antispam"><input type="text" value="" name="url"></div>
+
+                <div class="form-group">
+                    <input type="tel" name="tel" id="email" class="form-control required "
+                           placeholder="tel: +91 7837973423">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" class="form-control input-lg required" rows="9"
+                              placeholder="Enter Message"></textarea>
+                    <grammarly-btn>
+                        <div style="visibility: hidden; z-index: 2;"
+                             class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused"
+                             data-grammarly-reactid=".0">
+                            <div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0">
+                                <div title="Protected by Grammarly" class="_9b5ef6-status"
+                                     data-grammarly-reactid=".0.0.0">&nbsp;</div>
+                            </div>
+                            <span class="_9b5ef6-btn_text" data-grammarly-reactid=".0.1">Not signed in</span></div>
+                    </grammarly-btn>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" id="contactForm_submit" class="btn btn-trans btn-border btn-full"
+                           value="Submit">
+                </div>
+                <!-- antispam code -->
+                <div class="antispam"><input type="text" value="" name="url"></div>
                 {!! Form:: close() !!}
-                <!-- </form> -->
-			</div>
-		</div>
-		<!-- End form contact -->
-	</div>
+                        <!-- </form> -->
+            </div>
+        </div>
+        <!-- End form contact -->
+    </div>
 </section>
 <!-- End Contact Section -->
 <!-- Google maps
@@ -962,12 +1109,12 @@
         -->
 <!-- End Google maps -->
 <footer class="text-center">
-	<!-- Footer Text -->
-	<div class="container text-center item_top" style="opacity: 1; top: 0px;">
-		<img class="footer-logo" src="public/img/logo1.png" alt="footer logo"><br>
-		 Copyright 2017. All Rights Reserved.
-	</div>
-	<!-- End Footer Text -->
+    <!-- Footer Text -->
+    <div class="container text-center item_top" style="opacity: 1; top: 0px;">
+        <img class="footer-logo" src="public/img/logo1.png" alt="footer logo"><br>
+        Copyright 2017. All Rights Reserved.
+    </div>
+    <!-- End Footer Text -->
 </footer>
 <!-- Back to top -->
 <a href="#" id="back-top" style="display: none;"><i class="fa fa-angle-up fa-2x"></i></a>
@@ -996,7 +1143,12 @@
 <script type="text/javascript" src="{{ asset('public/js/jquery.themepunch.revolution.min.js.download') }}"></script>
 <!-- END SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="{{ asset('public/js/script.js.download') }}"></script>
- <!--Js Library -->
+<!--Js Library -->
 
-<div style="clear: both;"></div></body><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div><div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
+<div style="clear: both;"></div>
+</body>
+<div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div>
+<div style="visibility: hidden; top: -9999px; position: absolute; opacity: 0;"></div>
+<span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span
+            class="gr__triangle"></span></span>
 </html>
