@@ -518,7 +518,7 @@
                     <h4>Job Seekers</h4>
 
                     <div class="services-box-icon">
-                        <i class="fa fa-arrows fa-3x"></i>
+                        <i class="fa fa-users fa-3x"></i>
                     </div>
                     <div class="service-box-info">
                         <p>

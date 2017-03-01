@@ -1718,3 +1718,8 @@ p{
     font-size: 18px;
     font-family:"Roboto", Helvetica, Arial, sans-serif;
 }
+
+.btn-cct{
+    color:white;
+    background-color: #FC3032;
+}

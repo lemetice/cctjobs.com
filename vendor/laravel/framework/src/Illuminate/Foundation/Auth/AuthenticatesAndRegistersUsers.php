@@ -37,7 +37,7 @@ trait AuthenticatesAndRegistersUsers {
 	 * @return \Illuminate\Http\Response
 	 */
 	public function postRegister(Request $request)
-	{
+	{	var_dump($request->all());
 		$validator = $this->registrar->validator($request->all());
 
 		if ($validator->fails())
@@ -95,7 +95,8 @@ trait AuthenticatesAndRegistersUsers {
 	 */
 	protected function getFailedLoginMessage()
 	{
-		return 'These credentials do not match our records.';
+		//return 'These credentials do not match our records.';
+		return 'Wrong username or password.';
 	}
 
 	/**
