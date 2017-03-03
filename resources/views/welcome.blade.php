@@ -581,7 +581,7 @@
     <div class="container">
         <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <h1 class="white padBottom killMargin">I am a <strong>Job seeker</strong></h1>
-            <a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
+            <a href="http://cctjobs.com/auth/register" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
             <span class="btn btn-primary btn-lg" href="#"><i class="fa fa-weixin"></i> And get job notifications</span>
         </div>
         <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">

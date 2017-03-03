@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="logo" src="../public/img/logo1.png" alt=""></a>
+            <a class="navbar-brand" href="http://cctjobs.com/"><img class="logo" src="../public/img/logo1.png" alt=""></a>
         </div>
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
