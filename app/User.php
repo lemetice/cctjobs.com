@@ -22,7 +22,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['name', 'email', 'password', "cell_phone"];
+	protected $fillable = [ 'ln_id', 'fb_id','role_id', 'name', 'surname', 'email', 'password'];
+
 
 	/**
 	 * The attributes excluded from the model's JSON form.
@@ -30,5 +31,33 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 * @var array
 	 */
 	protected $hidden = ['password', 'remember_token'];
+
+	public function abonnerInfos()
+	{
+		return $this->hasOne('App\Models\AbonnerInfo', 'user_id', 'id');
+	}
+
+	/*************
+	 *
+	//has many jobs offers
+	public function jobs(){
+	return $this->hasMany('App\Models\Jobs', 'author_id');
+	}
+
+	//User has one and only one role
+	public  function role(){
+	return $this->belongsTo('App\Models\Role', 'role_id');
+	}
+
+	//User has many jobs he applied for
+	public  function jobsApplied(){
+	return $this->hasMany('App\Models\JobsAppliedFor', 'user_id');
+	}
+
+	public function employerInfos()
+	{
+	return $this->hasOne('App\Models\EmployerInfo', 'user_id', 'id');
+	}
+	 * */
 
 }
