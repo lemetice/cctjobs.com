@@ -1723,3 +1723,8 @@ p{
     color:white;
     background-color: #FC3032;
 }
+
+.panel-default > .panel-heading-custom {
+    background: #FC3032;
+    color: #fff;
+}
