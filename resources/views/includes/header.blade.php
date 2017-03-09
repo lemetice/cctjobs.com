@@ -12,7 +12,7 @@
 </div>
 <!-- End Pre-loader -->
 <!-- Navbar -->
-<div class="navbar navbar-transparent navbar-fixed-top">
+<div class="navbar  navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
