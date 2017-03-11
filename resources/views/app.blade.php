@@ -139,7 +139,7 @@
 	-->
 	<!-- Page header-->
 	@include('includes.header')
-	<br><br><br><br>
+	<br><br><br><br><br>
 	@yield('content')
 
 	<!-- Page Footer-->

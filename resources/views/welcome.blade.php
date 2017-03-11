@@ -117,7 +117,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="logo" src="public/img/logo1.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img class="logo" src="{{ asset('public/img/logo1.png')}}" alt=""></a>
         </div>
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
@@ -148,6 +148,12 @@
                 </li>
                 <li class="">
                     <a href="#contact">Contact</a>
+                </li>
+                <li class="cct-btn">
+                    <a href="{{url('auth/login')}}">Login</a>
+                </li>
+                <li class="">
+                    <a href="{{url('auth/register')}}">Register</a>
                 </li>
             </ul>
         </nav>
@@ -581,7 +587,7 @@
     <div class="container">
         <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">
             <h1 class="white padBottom killMargin">I am a <strong>Job seeker</strong></h1>
-            <a href="http://cctjobs.com/auth/register" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
+            <a href="{{url('auth/register')}}" class="scroll btn btn-trans btn-border-w btn-large">Register</a>&nbsp;<br/><br/>
             <span class="btn btn-primary btn-lg" href="#"><i class="fa fa-weixin"></i> And get job notifications</span>
         </div>
         <div class="col-md-6 text-center item_bottom" style="opacity: 1; bottom: 0px;">

@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://cctjobs.com/"><img class="logo" src="../public/img/logo1.png" alt=""></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img class="logo" src="{{ asset('public/img/logo1.png') }}" alt=""></a>
         </div>
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
@@ -51,6 +51,12 @@
                 </li>
                 <li class="">
                     <a href="#contact">Contact</a>
+                </li>
+                <li class="cct-btn">
+                    <a href="{{url('auth/login')}}">Login</a>
+                </li>
+                <li class="">
+                    <a href="{{url('auth/register')}}">Register</a>
                 </li>
             </ul>
         </nav>
