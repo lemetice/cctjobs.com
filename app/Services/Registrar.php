@@ -81,10 +81,11 @@ class Registrar implements RegistrarContract {
 						Session::flash('error_message', "Your CV/Resume should be less than 2Mo");
 						return;
 						}
-					}else{
-						Session::flash('error_message', "Please select a file");
-						return;
-					}
+				}else{
+						continue;
+						//Session::flash('error_message', "Please select a file");
+						//return;
+				}
 				AbonnerInfo::create(['user_id' => $user->id, 'sign_up_type' => 'G',
 					'tel' => '00'.$data['country_code'].$data['tel'], 'cv_link' => $cv_link]);
 

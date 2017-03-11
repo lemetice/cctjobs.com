@@ -222,7 +222,6 @@
                         <span style="background-color: #FC3032; border-radius: 6px; -webkit-border-radius: 6px; color: #fff; padding: 0px 10px;">All kinds of jobs</span>
                     </div>
 
-
                 </li>
             </ul>
         </div>

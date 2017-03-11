@@ -25,7 +25,7 @@
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="#home">Home</a>
+                    <a href="{{url('/#home')}}">Home</a>
                 </li>
                 <!--
                 <li class="">
@@ -33,7 +33,7 @@
                 </li>
                  -->
                 <li class="">
-                    <a href="#services">Services</a>
+                    <a href="{{url('/#services')}}">Services</a>
                 </li>
                 <!--
                 <li class="">
@@ -41,16 +41,16 @@
                 </li>
                 -->
                 <li class="">
-                    <a href="#clients">Clients</a>
+                    <a href="{{url('/#clients')}}">Clients</a>
                 </li>
                 <li class="">
-                    <a href="#process">Process</a>
+                    <a href="{{url('/#process')}}">Process</a>
                 </li>
                 <li class="">
-                    <a href="#about">About</a>
+                    <a href="{{url('/#about')}}">About</a>
                 </li>
                 <li class="">
-                    <a href="#contact">Contact</a>
+                    <a href="{{url('/#contact')}}">Contact</a>
                 </li>
                 <li class="cct-btn">
                     <a href="{{url('auth/login')}}">Login</a>
