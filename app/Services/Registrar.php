@@ -5,6 +5,7 @@ use App\User;
 use App\Models\AbonnerInfo;
 use Validator;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 use Session;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
