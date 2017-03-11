@@ -93,13 +93,19 @@ class Registrar implements RegistrarContract {
 				break;
 		}
 
-		/* Send mail to new user*/
+		/* Send mail to new user
 		$mail_parameters = ["sender_email" => env('MAIL_USERNAME', "cct@cctjobs.com"),
 			"sender_name" => env('MAIL_USERNAME', "cct@cctjobs.com"),
 			"receiver_email" => $user->email, "receiver_name" => $user->name, "subject" => "Welcome to CCT jobs!"];
 
 		Utility::SendSimpleMail('emails.welcome' , $mail_parameters );
+		*/
+		$this->user = $user;
 
+		Mail::send('emails.welcome', $user, function($message)
+		{
+			$message->to($this->user->eamil, $this->user->name)->subject('Welcome to CCT Jobs!');
+		});
 
 
 		return $user;
