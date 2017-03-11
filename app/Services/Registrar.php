@@ -101,9 +101,9 @@ class Registrar implements RegistrarContract {
 
 		Utility::SendSimpleMail('emails.welcome' , $mail_parameters );
 		*/
-		$this->user = array('email'=>$user->email, 'name'=>$user->email);
-
-		Mail::send('emails.welcome', $user, function($message)
+		$this->user = array('email'=>$user->email, 'name'=>$user->name);
+		
+		Mail::send('emails.welcome', $this->user, function($message)
 		{
 			$message->to($this->user['eamil'], $this->user['name'])->subject('Welcome to CCT Jobs!');
 		});
