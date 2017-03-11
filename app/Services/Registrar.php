@@ -101,7 +101,7 @@ class Registrar implements RegistrarContract {
 
 		Utility::SendSimpleMail('emails.welcome' , $mail_parameters );
 		*/
-		$this->user = array($user);
+		$this->user = array('email'=>$user->email, 'name'=>$user->email);
 
 		Mail::send('emails.welcome', $user, function($message)
 		{
