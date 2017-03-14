@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-6 ">
                 <!-- Contact Details -->
-                <img class="footer-logo" src="../public/img/logo1.png" alt="footer logo"><br>
+                <img class="footer-logo" src="{{asset('public/img/logo1.png')}}" alt="footer logo"><br>
                 <i class="fa fa-map-marker fa-3x"></i>
 
                 <span>

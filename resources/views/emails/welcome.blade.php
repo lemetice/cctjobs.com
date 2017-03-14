@@ -1,6 +1,6 @@
 <center>
     <img class='img-responsive' style='margin-top: -20px;margin-left: -5px;'
-         width='329' height='67' src="{{ asset('public/img/logo1.png') }}"
+         width='139' height='49' src="{{ asset('public/img/logo1.png') }}"
          alt='CCT LOGO'/>
 </center>
 

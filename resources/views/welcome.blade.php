@@ -39,10 +39,10 @@
     <!-- Favicons -->
     <!--<link rel="shortcut icon" href="img/ico-16.ico">-->
     <link rel="shortcut icon" href="{{ asset('public/img/favicon.ico') }}">
-    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-57.png') }}" sizes="57x57">
-    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-72.png') }}" sizes="72x72">
-    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-114.png') }}" sizes="114x114">
-    <link rel="apple-touch-icon" href="{{ asset('publicpublic/img/ico-144.png') }}" sizes="144x144">
+    <link rel="apple-touch-icon" href="{{ asset('public/img/ico-57.png') }}" sizes="57x57">
+    <link rel="apple-touch-icon" href="{{ asset('public/img/ico-72.png') }}" sizes="72x72">
+    <link rel="apple-touch-icon" href="{{ asset('public/img/ico-114.png') }}" sizes="114x114">
+    <link rel="apple-touch-icon" href="{{ asset('public/img/ico-144.png') }}" sizes="144x144">
     <!-- List of Stylesheet -->
     <link type="text/css" href="{{ asset('public/css/normalize.css') }}" rel="stylesheet">
     <link type="text/css" href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
