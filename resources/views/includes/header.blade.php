@@ -59,6 +59,15 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
+                            <!--Check type of user and display appropriate menu-->
+                            @if(Auth::user()->role_id == \App\Http\Helper\Utility::$EMPLOYER_ROLE_ID || Auth::user()->role_id == \App\Http\Helper\Utility::$PAID_EMPLOYER_ROLE_ID)
+                                    <li class=" rd-navbar-right-buttons reveal-inline-block"><a href="{{ url("jobs/create") }}" style="max-height: 40px; line-height: 22px;"  class="btn btn-warning text-middle"><span class="big">Create a job</span></a></li>
+                                @else @if(Auth::user()->role_id == \App\Http\Helper\Utility::$ABONNE_ROLE_ID)
+                                    <li><a href="{{ url('abonnes/'. Auth::user()->abonnerInfos->id) }}"><span class="text-middle">Profil</span></a></li>
+                                @else
+                                    <li><a href="{{ url('admin/') }}"><span class="text-middle">Dashboard</span></a></li>
+                                @endif
+                            @endif
                             <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
                         </ul>
                     </li>

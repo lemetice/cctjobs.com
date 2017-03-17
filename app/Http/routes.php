@@ -22,3 +22,5 @@ Route::controllers([
 
 
 Route::post('contact-us', 'WelcomeController@contactUs');
+
+Route::resource('admin', 'AdminController', ['except' => ['create', 'store']]);
