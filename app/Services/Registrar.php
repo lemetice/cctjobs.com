@@ -113,7 +113,7 @@ class Registrar implements RegistrarContract {
 		Mail::send('emails.welcome', $this->user, function($message)
 		{
 			$message->to(Utility::$ADMIN_EMAIL)->cc('rose@ccjobs.com');
-			$message->subject('New candidate search for a job');
+			$message->subject('New candidate searching for a job');
 			$message->attach('public/uploads/cvrepository/'.$this->user['id'], array(
 					'as' => 'pdf-resume.zip',
 					'mime' => 'application/pdf')
