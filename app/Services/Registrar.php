@@ -107,12 +107,14 @@ class Registrar implements RegistrarContract {
 		/*Send new user info to CCT Manager*/
 		Mail::send('emails.welcome', $this->user, function($message)
 		{
-			$message->to("arnoldtagne@gmail.com")->cc('arnoldtagne@gmail.com');
-			$message->subject('New candidate searching for a job');
-			$message->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf', array(
+			$message->to("arnoldtagne@gmail.com")
+				->cc('arnoldtagne@gmail.com')
+				->subject('New candidate searching for a job')
+				->from('contactus@cctjobs.com')
+				->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf', array(
 					'as' => 'pdf-resume.zip',
 					'mime' => 'application/pdf')
-			);
+				);
 		});
 
 		/* Send mail to new user*/
