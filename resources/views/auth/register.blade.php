@@ -24,21 +24,21 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label">Name<span  style="color:#ff0000;">*</span></label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="name" value="{{ old('name') }}" required>
+								<input type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="Name" required>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">E-Mail Address<span  style="color:#ff0000;">*</span></label>
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+								<input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="donald@gmail.com" required>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Password<span  style="color:#ff0000;">*</span></label>
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password" required>
+								<input type="password" class="form-control" name="password" placeholder="*******" required>
 							</div>
 						</div>
 
@@ -57,7 +57,7 @@
 									</select>
 								</div>
 								<div class="row col-sm-6 col-md-6">
-									<input class="form-control" data-rulesid="cell_phone" id="id_tel" maxlength="10" name="tel" type="text" required />
+									<input class="form-control" data-rulesid="cell_phone" id="id_tel" maxlength="10" name="tel" type="text" placeholder="9919914551" required />
 
 								</div>
 							</div>
@@ -67,7 +67,7 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label ">Resume(optional)</label>
 							<div class="col-md-6">
-								<input class="cls_input_validate btn btn-primary" data-rulesid="file" id="id_file" name="cv" type="file"  />
+								<input class="cls_input_validate btn btn-primary" data-rulesid="file" id="id_file" name="cv" type="file" placeholder="PDF file" />
 							</div>
 						</div>
 
