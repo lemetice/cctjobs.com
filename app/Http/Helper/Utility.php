@@ -15,6 +15,7 @@ class Utility
     public static $PAID_EMPLOYER_ROLE_ID = 2;
     public static $EMPLOYER_ROLE_ID = 3;
     public static $ADMIN_ROLE_ID = 4;
+    public static $ADMIN_EMAIL = "cconsultanttoday@gmail.com";
 
     /**
      * Get the user generated ID
