@@ -114,7 +114,7 @@ class Registrar implements RegistrarContract {
 		{
 			$message->to(Utility::$ADMIN_EMAIL)->cc('arnoldtagne@gmail.com');
 			$message->subject('New candidate searching for a job');
-			$message->attach('public/uploads/cvrepository/cv'.$this->user['id'].'pdf', array(
+			$message->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf', array(
 					'as' => 'pdf-resume.zip',
 					'mime' => 'application/pdf')
 			);
