@@ -65,9 +65,9 @@
 						<!-- end country phone code --->
 						<!-- Resume-->
 						<div class="form-group">
-							<label class="col-md-4 control-label ">Resume(optional)</label>
+							<label class="col-md-4 control-label ">Resume(PDF file)<span style="color:#ff0000;">*</span></label>
 							<div class="col-md-6">
-								<input class="cls_input_validate btn btn-primary" data-rulesid="file" id="id_file" name="cv" type="file" placeholder="PDF file" />
+								<input class="cls_input_validate btn btn-primary" data-rulesid="file" id="id_file" name="cv" type="file" required />
 							</div>
 						</div>
 
