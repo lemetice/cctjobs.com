@@ -596,110 +596,117 @@
 
     </div>
 </div>
-<!-- Resume Section
+<!-- Categorie Section -->
 <section id="experience" class="section-content bg2">
 	<div class="container">
 		<div class="row">
-			<!-- Section title --
+			<!-- Section title ---->
 			<div class="section-title item_bottom text-center" style="opacity: 1; bottom: 0px;">
 				<div>
 					<span class="fa fa-book fa-2x"></span>
 				</div>
-				<h1>My <span>Resume</span></h1>
+				<h1>Popular <span>Category</span></h1>
 			</div>
-			<!-- End Section title --
+			<!-- End Section title ---->
 		</div>
 		<div class="row">
-			<ul class="timeline list-unstyled">
-				<!-- History Year --
-				<li class="title">Present</li>
-				<li class="note item_right" style="opacity: 1; right: 0px;">
-					<h4>Lovely Professional University</h4>
-					<h5>Student</h5>
-					<p class="desc">
-						Currently taking Master in Information Systems
-					</p>
-                            <span class="date">
-                                Aug 2016 to Present</span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<li class="note item_left" style="opacity: 1; left: 0px;">
-					<h4>Microsoft Corporation</h4>
-					<h5>Evangelist</h5>
-					<p class="desc">
-						Organize events, workshop/training on Microsoft cutting edge technologies on Campus<br>
-						Train small business on the Office 365<br>
-						Develop Windows Phone applications<br>
-						Manage the Microsoft Community on Campus<br>
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-university fa-5x"></span>
+                                <div class="h6 offset-top-14">Banks - Assurances</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-building-o fa-5x"></span>
+                                <div class="h6 offset-top-14">Civil Engineering</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
-					</p>
-                            <span class="date">
-                                April 2014 to NOV 2016 </span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<li class="note item_right" style="opacity: 1; right: 0px;">
-					<h4>Floraison Company SARL</h4>
-					<h5>Web Developer</h5>
-					<p class="desc">
-						Design, developed, modified and test software applications<br>
-						Project planning with Microsoft Project 2016<br>
-						Create web-based application using the latest web technologies<br>
-						Analyze and implement hardware and software requirements<br>
-						Develop web services (API)<br>
-						Debug code and resolve complex issues<br>
-						Configure and maintain VPS server<br>
-						Draft technical manual and perform unit testing<br>
-						2 years  Experience with Laravel, AngularJS, Jquery,Git, Gulp,MySQL,Bootstrap<br>
+                <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix visible-xs"></div>
 
-					</p>
-                            <span class="date">
-                                Sep 2015 to Oct 2016 </span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<li class="note item_left" style="opacity: 1; left: 0px;">
-					<h4>Upwork</h4>
-					<h5>Mobile Developer(Freelancer)</h5>
-					<p class="desc">
-						Design, developed, modified and test mobile applications<br>
-						Build  hybrid mobile apps using Ionic framework and Firebase<br>
-						Code documentation<br>
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-pie-chart fa-5x"></span>
+                                <div class="h6 offset-top-14">Commerce - Marketing</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-line-chart fa-5x"></span>
+                                <div class="h6 offset-top-14">Accounting; - Finances</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-laptop fa-5x"></span>
+                                <div class="h6 offset-top-14">Computer-Engineering</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-tint fa-5x"></span>
+                                <div class="h6 offset-top-14">Oil and Gaz</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
-					</p>
-                            <span class="date">
-                                July 2015 </span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<!-- Education --
-				<li class="title">Education</li>
-				<li class="note item_left" style="opacity: 1; left: 0px;">
-					<h4>Master Degree of Technology</h4>
-					<h5>Lovely Professional University</h5>
-					<p class="desc">
-						Information Systems.<br>
-						Big Data<br>
-						Machine Learning<br>
-					</p>
-                            <span class="date">
-                                2016 - 2018 </span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<li class="note item_right" style="opacity: 1; right: 0px;">
-					<h4>Bechelor Degree of Computer Engineering</h4>
-					<h5>University of Buea</h5>
-					<p class="desc">
-						Software Engineering.
-					</p>
-                            <span class="date">
-                                2011 - 2015 </span>
-					<span class="arrow fa fa-play"></span>
-				</li>
-				<!-- Start icon --
-				<li class="start fa fa-bookmark"></li>
-				<li class="clear"></li>
-			</ul>
+                <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix visible-xs"></div>
+
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-truck fa-5x"></span>
+                                <div class="h6 offset-top-14">Transport - Logistics</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <ul class="list list-unstyled list-vertical-right-line ">
+                        <li>
+                            <div class="section-lg-24"><span class="icon icon-sm fa fa-wifi fa-5x"></span>
+                                <div class="h6 offset-top-14">IT - Telecom</div>
+                                <hr class="divider divider-sm bg-white"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
 		</div>
 	</div>
-</section>-->
+</section>
 <!-- End Experience Timeline Section -->
 
 <!-- Clients Section -->
@@ -1038,8 +1045,10 @@
                 </p>
 
                 <p>
-                    +91 7589088881<br>
-                    +91 8699928800
+                    +91 7589088881 &nbsp; OR &nbsp; +91 8699928800<br>
+                <span>
+                    Opening Hours: <b>Mon-Sat 9 AM-5 PM</b>
+                </span>
                 </p>
                 <!-- End Contact Details -->
                 <!-- Social Icon -->
