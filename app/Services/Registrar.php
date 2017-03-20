@@ -102,25 +102,27 @@ class Registrar implements RegistrarContract {
 		Utility::SendSimpleMail('emails.welcome' , $mail_parameters );
 		*/
 
-		$this->user = array('email'=>array($user->email,'arnoldtagne@gmail.com'), 'name'=>$user->name, 'tel'=>$user->tel, 'id'=>$user->id);
+		$this->user = array('email'=>$user->email, 'name'=>$user->name, 'tel'=>$user->tel, 'id'=>$user->id);
 
 		/*Send new user info to CCT Manager*/
 		Mail::send('emails.welcome', $this->user, function($message)
 		{
-			$message->to('arnoldtagne@gmail.com')->cc('arnoldtagne@gmail.com')->subject('New candidate searching for a job')->from('contactus@cctjobs.com')->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf', array(
-					'as' => 'pdf-resume.zip',
-					'mime' => 'application/pdf')
-				);
+			try{
+
+				$message->to(Utility::$ADMIN_EMAIL)->cc('arnoldtagne@gmail.com')
+						->subject('New candidate searching for a job')
+						->from('contactus@cctjobs.com')
+						/*->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf')*/;
+			}catch (Exception $e){
+				return $e;
+			}
 		});
 
 		/* Send mail to new user*/
 
 		Mail::send('emails.welcome', $this->user, function($message)
 		{
-			$message->to($this->user['email'], $this->user['name'])->subject('Welcome to CCT Jobs!')->attach('public/uploads/cvrepository/cv'.$this->user['id'].'.pdf', array(
-					'as' => 'pdf-resume.zip',
-					'mime' => 'application/pdf')
-			);
+			$message->to($this->user['email'], $this->user['name'])->subject('Welcome to CCT Jobs!');
 		});
 
 		return $user;
